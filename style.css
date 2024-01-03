@@ -1,147 +1,99 @@
-<<<<<<< HEAD
-a{
-    color: black;
-    text-decoration: none;
-    margin-right: 100px;
-    
-}
-a:hover{
-    color:red;
-    
-}
-
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:0;
-    justify-content: space-around;
-}
-
-.btn1{
-    border-radius: 20px;
-    color: white;
-    background-color: red;
-    font-weight: bold;
-}
-
-/*nav-bar*/
-.section1{
-    background:rgba(0, 0, 0, 0.5) url(26.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    margin-top: 30px;
-}
-.p1{
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-    margin-left: 150px;
-    padding-top: 100px;
-}
-.p2{
-    font-size: 25px;
-    color: white;
-    margin-left: 150px;
-}
-.btn2{
-    color: white;
-    margin-bottom: 300px;
-    background-color: red;
-    margin-left: 300px;
-    border-radius: 25px;
-    font-weight: bold;
-}
-.formateur{
-    display: flex;
-    justify-content: space-around;
-    
-    
-
-}
-.h1{
-    color: rgb(206, 0, 51);
-    font-size: 30px;
-}
-.sbk1{
-    border: 3px rgb(228, 222, 222) solid ;
-    border-width: 0.2px;
-    padding: 30px;
-    border-radius: 10px;
-    display: flex;
-}
-.samba img{
-    border-radius: 20px;
-    position: relative;
-    bottom: 70px;
-    right: 55px; 
-}
-hr{
-    width: -200px;
-}
-.prenom{
-    font-weight: bolder;
-    font-size: x-large;
-}
-
-.apprenant1{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
-}
-.p3{
-    font-size: 25px;
-    padding-top: 70px;
-    padding-left: 50px;
-    background-color: rgb(246, 238, 238);
-    width: 50%;
-    
-
-}
-.img_apprenant img{
-    size: 400px;
-}
-.p4{
-    font-weight: bold;
-}
-h2{
-    color: rgb(206, 0, 51);
-    font-size: 30px;
-}
-.alumni{
-    display: flex;
-    justify-content: space-around;
-}
-.histoire{
-    display: flex;
-    justify-content: space-around;
-}
-.footer{
-    color: white;
-    background-color: rgb(31,31, 31);
-    display: flex;
-    justify-content: space-around;
-}
-
-.last{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color:rgb(206, 0, 51);
-    color: white;
-    font-size: 20px;
-}
-
-
-=======
 body{
     font-family: sans-serif;
 }
-
+li{
+    list-style: none;
+    margin: 27px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+ul{
+    display:flex;
+    
+}
+.section1{
+    background-image: url("26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 140px;
+}
+.section1 .p1{
+  font-size: 47px;
+  font-weight: bolder;
+}
+.section1 .p2{
+  font-size: 20px;
+}
+.formateur{
+    display:flex;
+    justify-content: space-around;
+}
+.sambabery{
+    height: auto;
+    width: 230px;
+    border-radius: 5px;
+}
+.ligne{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 150px;
+}
+.samba{
+    margin-left: 35px;
+}
+.samba p{
+    width: 250px;
+    color: rgb(97, 96, 96);
+}
+.box_samba{
+    display:flex;
+    border-style: solid;
+    padding: 15px;
+    border-width: 1px;
+    border-color: rgb(219, 214, 214);
+    border-radius: 8px;
+}
+.samba h3{
+    font-size:
+     25px;
+}
+.samba h4{
+    color:rgb(82, 82, 82);
+    font-size:20px;
+    font-weight: lighter;
+}
+.sambabery{
+    position:relative;
+    bottom:30px;right: 40px;
+}
+.formateurs{
+    display:flex;
+    justify-content: space-around;
+}
+#ligne{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 70px;
+    width:70px ;
+}
+#formateur{
+    font-size: xx-large;
+    color:#ce0033
+}
 .simplon img{
     border-radius: 6%;
 }
+
 .simplon{
     display:flex;
     background-color: rgb(253, 235, 238);
@@ -383,4 +335,29 @@ form span{
 .formulaire{
     margin-right: 56px;
 }
->>>>>>> 55110df0fc244740ffb8e4663629fd57a0529971
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url("images/Design sans titre (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4%;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color:rgb(182, 180, 180)
+}
+#btn-joindre{
+    background-color: rgb(192, 15, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+aside{
+    color:white;
+    background-color: crimson;
+    padding: 1.5%;
+    font-size:1em;
+}

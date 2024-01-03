@@ -1,7 +1,8 @@
 body{
     font-family: sans-serif;
 }
-img{
+
+.simplon img{
     border-radius: 6%;
 }
 .simplon{
@@ -132,4 +133,82 @@ img{
 }
 .mini_caisse{
     text-align: center;
+}
+.communauté{
+    display:flex;
+    justify-content: center;
+}
+.second_div p{
+  width: 335px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.history{
+    margin-right: 50px;
+}
+.second_div h2{
+    color:rgb(194, 8, 39);
+    margin-bottom: 60px;
+}
+.history div{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.history .first_p{
+    color:white;
+    background-color:rgb(187, 5, 35) ;
+    width: 250px;
+    text-align: center;
+    border-top-right-radius:45% ;
+    border-bottom-right-radius: 45%;
+    padding: 10px;
+    position:relative;
+    top:75px;right:40px
+}
+.heure{
+    color:white;
+    background-color:rgb(187, 5, 35) ;
+    width: 60px;
+    position:relative;
+    margin-top: 0;
+    bottom:75px;left:470px;
+}
+.history img{
+    border-bottom-color:rgb(187, 5, 35)  ;
+    border-bottom-style:solid;
+    border-radius: 0;
+    border-bottom-width: 6px;
+}
+.history .second_p{
+    border-style: solid;
+    padding: 21px;
+    border-width: 0.1px;
+    border-radius: 5px;
+    box-shadow: 6px;
+    border-color: rgb(222, 218, 218);
+    font-weight: bolder;
+    
+}
+.second_div{
+    margin-top: 45px;
+}
+.image{
+  text-align: center;
+}
+.play{
+    position:relative;
+    bottom:362px
+}
+.equipe_pedagogique h2{
+  color:rgb(201, 9, 41);
+  font-weight: bold;
+  font-size: 40px;
+}
+.equipe_pedagogique h3{
+  color:white;
+  background-color:rgb(183, 12, 40);
+  padding:8px;
+  width:200px ;
+  position:relative;
+  top:80px;left:150px
 }

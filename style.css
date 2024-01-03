@@ -50,7 +50,72 @@ a:hover{
     margin-left: 300px;
     border-radius: 25px;
     font-weight: bold;
+}
+.formateur{
+    display: flex;
+    justify-content: space-around;
+    
+    
 
+}
+.h1{
+    color: rgb(206, 0, 51);
+    font-size: 30px;
+}
+.sbk1{
+    border: 3px rgb(228, 222, 222) solid ;
+    border-width: 0.2px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+.samba img{
+    border-radius: 20px;
+    position: relative;
+    bottom: 70px;
+    right: 55px; 
+}
+hr{
+    width: -200px;
+}
+.prenom{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.apprenant1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{
+    color: rgb(206, 0, 51);
+    font-size: 30px;
+}
+.alumni{
+    display: flex;
+    justify-content: space-around;
+}
+.histoire{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    color: white;
+    background-color: rgb(31,31, 31);
+    display: flex;
+    justify-content: space-around;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(206, 0, 51);
+    color: white;
+    font-size: 20px;
 }
 
 

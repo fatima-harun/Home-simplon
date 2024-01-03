@@ -100,6 +100,9 @@ hr{
 .img_apprenant img{
     size: 400px;
 }
+.p4{
+    font-weight: bold;
+}
 h2{
     color: rgb(206, 0, 51);
     font-size: 30px;

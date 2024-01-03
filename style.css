@@ -212,3 +212,37 @@ body{
   position:relative;
   top:80px;left:150px
 }
+form{
+    display:flex;
+    margin-left: 315px;
+}
+.contact{
+    text-align: center;
+    color:rgb(187, 14, 43);
+    font-size: xx-large;
+}
+input{
+    padding: 15px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+    
+}
+textarea{
+    padding: 15px;
+    width: 550px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+}
+form span{
+ color:rgb(164, 7, 33);
+ font-size:medium;
+ font-weight: bolder;
+}
+.formulaire{
+    margin-right: 56px;
+}

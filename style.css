@@ -1,88 +1,84 @@
-a{
-    color: black;
-    text-decoration: none;
-    margin-right: 100px;
-    
+body{
+    font-family: sans-serif;
 }
-a:hover{
-    color:red;
-    
+li{
+    list-style: none;
+    margin: 27px;
 }
-
-.nav-bar{
-    display: flex;
+header{
+    display:flex;
     justify-content: space-between;
-    margin-bottom:0;
-    justify-content: space-around;
 }
-
-.btn1{
-    border-radius: 20px;
-    color: white;
-    background-color: red;
-    font-weight: bold;
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
-
-/*nav-bar*/
+ul{
+    display:flex;
+    
+}
 .section1{
-    background:rgba(0, 0, 0, 0.5) url(26.png);
+    background-image: url("26.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
-    margin-top: 30px;
+    color:white;
+    padding: 140px;
 }
-.p1{
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-    margin-left: 150px;
-    padding-top: 100px;
+.section1 .p1{
+  font-size: 47px;
+  font-weight: bolder;
 }
-.p2{
-    font-size: 25px;
-    color: white;
-    margin-left: 150px;
-}
-.btn2{
-    color: white;
-    margin-bottom: 300px;
-    background-color: red;
-    margin-left: 300px;
-    border-radius: 25px;
-    font-weight: bold;
+.section1 .p2{
+  font-size: 20px;
 }
 .formateur{
-    display: flex;
+    display:flex;
     justify-content: space-around;
-    
-    
-
 }
-.h1{
-    color: rgb(206, 0, 51);
-    font-size: 30px;
+.sambabery{
+    height: auto;
+    width: 230px;
+    border-radius: 5px;
 }
-.sbk1{
-    border: 3px rgb(228, 222, 222) solid ;
-    border-width: 0.2px;
-    padding: 30px;
-    border-radius: 10px;
-    display: flex;
+.ligne{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 150px;
 }
-.samba img{
-    border-radius: 20px;
-    position: relative;
-    bottom: 70px;
-    right: 55px; 
+.samba{
+    margin-left: 35px;
 }
-hr{
-    width: -200px;
+.samba p{
+    width: 250px;
+    color: rgb(97, 96, 96);
 }
-.prenom{
-    font-weight: bolder;
-    font-size: x-large;
+.box_samba{
+    display:flex;
+    border-style: solid;
+    padding: 15px;
+    border-width: 1px;
+    border-color: rgb(219, 214, 214);
+    border-radius: 8px;
 }
-
+.samba h3{
+    font-size:
+     25px;
+}
+.samba h4{
+    color:rgb(82, 82, 82);
+    font-size:20px;
+    font-weight: lighter;
+}
+.sambabery{
+    position:relative;
+    bottom:30px;right: 40px;
+}
+.formateurs{
+    display:flex;
+    justify-content: space-around;
+}
 .apprenant1{
     display: flex;
     justify-content: space-between;
@@ -98,11 +94,270 @@ hr{
 
 }
 .img_apprenant img{
-    size: 400px;
+    display: inline-block;
+    width: 700px;
 }
 .p4{
     font-weight: bold;
 }
+
+#ligne{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 70px;
+    width:70px ;
+}
+#formateur{
+    font-size: xx-large;
+    color:#ce0033
+}
+.simplon img{
+    border-radius: 6%;
+}
+
+.simplon{
+    display:flex;
+    background-color: rgb(253, 235, 238);
+    justify-content: center;
+    padding:25px;
+}
+.simplon_au_senegal{
+    margin-left: 5%;
+}
+.simplon_au_senegal h2{
+  font-size: 40px;
+  font-family: sans-serif;
+  color:rgb(189, 4, 35)
+}
+.simplon_au_senegal p{
+  font-size: 24px;
+  font-family:sans-serif;
+  width: 597px;
+  line-height: 1.8;
+}
+.box{
+    display:flex;
+    justify-content: space-evenly;
+}
+.nouvelles h2{
+  font-size: 48px;
+  color: rgb(205, 6, 40);
+  font-family: sans-serif;
+  text-align: center;
+}
+.nouvelles h3{
+    color: rgb(205, 6, 40);
+    font-size: 35px;
+}
+.para1{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.para2{
+  font-size: 17px;
+  color: rgb(106, 105, 105);
+  line-height: 1.5;
+  width: 250px
+}
+.date{
+    
+    width: 35px;
+    color: white;
+    background-color: rgb(208, 23, 54);
+    padding: 6px;
+    text-align: center;
+    position:relative;
+    top:30px;left:270px;
+    border-bottom: 30px;
+}
+.date span{
+    font-size: 7px;
+}
+.actualités{
+    color:rgb(221, 13, 48);
+    font-size: 25px;
+    text-align: right;
+}
+.first_box{
+    display:flex;
+}
+.first_box p{
+    margin-left: 20px;
+    line-height: 1.3;
+}
+.caisse{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.first_box{
+    margin-right: 25px;
+    border-style: solid;
+    width: 40%;
+    padding-right: 15px;
+    color:white;
+    background-color: rgb(213, 8, 42);
+}
+.first_box span{
+  font-size:15px
+}
+.actualité h3{
+    margin-left:990px;
+    font-size: 25px;
+    color:rgb(189, 11, 41);
+    font-weight: lighter;
+}
+.evolution{
+    background:rgba(0,0,0,0.5)url("images/groupe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode:darken;
+    padding: 80px;
+    padding-bottom: 300px;
+    color:white;
+}
+.evolution h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.evolution p{
+    font-size: 25px;
+    line-height: 1.7;
+}
+.triple_caisse{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-image: url("images/arriere pan.png");
+    background-repeat: no-repeat;
+    align-content: center;
+    position: relative;
+    width: 1098px;
+    bottom:110px;left: 150px;
+
+}
+.triple_caisse h3{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.mini_caisse{
+    text-align: center;
+}
+.communauté{
+    display:flex;
+    justify-content: center;
+}
+.second_div p{
+  width: 335px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.history{
+    margin-right: 50px;
+}
+.second_div h2{
+    color:rgb(194, 8, 39);
+    margin-bottom: 60px;
+}
+.history div{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.history .first_p{
+    color:white;
+    background-color:rgb(187, 5, 35) ;
+    width: 250px;
+    text-align: center;
+    border-top-right-radius:45% ;
+    border-bottom-right-radius: 45%;
+    padding: 10px;
+    position:relative;
+    top:75px;right:40px
+}
+.heure{
+    color:white;
+    background-color:rgb(187, 5, 35) ;
+    width: 60px;
+    position:relative;
+    margin-top: 0;
+    bottom:75px;left:470px;
+}
+.history img{
+    border-bottom-color:rgb(187, 5, 35)  ;
+    border-bottom-style:solid;
+    border-radius: 0;
+    border-bottom-width: 6px;
+}
+.history .second_p{
+    border-style: solid;
+    padding: 21px;
+    border-width: 0.1px;
+    border-radius: 5px;
+    box-shadow: 6px;
+    border-color: rgb(222, 218, 218);
+    font-weight: bolder;
+    
+}
+.second_div{
+    margin-top: 45px;
+}
+.image{
+  text-align: center;
+}
+.play{
+    position:relative;
+    bottom:362px
+}
+.equipe_pedagogique h2{
+  color:rgb(201, 9, 41);
+  font-weight: bold;
+  font-size: 40px;
+}
+.equipe_pedagogique h3{
+  color:white;
+  background-color:rgb(183, 12, 40);
+  padding:8px;
+  width:200px ;
+  position:relative;
+  top:80px;left:150px
+}
+form{
+    display:flex;
+    margin-left: 315px;
+}
+.contact{
+    text-align: center;
+    color:rgb(187, 14, 43);
+    font-size: xx-large;
+}
+input{
+    padding: 15px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+    
+}
+textarea{
+    padding: 15px;
+    width: 550px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color:rgb(231, 221, 221);
+}
+form span{
+ color:rgb(164, 7, 33);
+ font-size:medium;
+ font-weight: bolder;
+}
+.formulaire{
+    margin-right: 56px;
+}
+
 h2{
     color: rgb(206, 0, 51);
     font-size: 30px;
@@ -113,23 +368,67 @@ h2{
 }
 .histoire{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
-.footer{
-    color: white;
-    background-color: rgb(31,31, 31);
-    display: flex;
-    justify-content: space-around;
-}
+.alumni1{
+    font-size: 30px;
+    background-color: rgb(253, 247, 247);
+    padding-top: 150px;
 
-.last{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color:rgb(206, 0, 51);
-    color: white;
+}
+#photo_alumni{
+    display: inline-block;
+    width: 800px;
+    margin-right: 40px;
+}
+.p_alumni{
+    font-weight: bold;
+}
+.alumni2{
+    
+
+}
+.histoire1{
+    border: 3px rgb(220, 215, 215) solid;
+}
+.p_histoire{
     font-size: 20px;
+    padding: 20px;
+    
 }
-
-
+.img19 img{
+    height: auto;
+    border-radius: 70px;
+    width: 120px;
+}
+.p_histoire1{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url("images/Design sans titre (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4%;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color:rgb(182, 180, 180)
+}
+#btn-joindre{
+    background-color: rgb(192, 15, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+aside{
+    color:white;
+    background-color: crimson;
+    padding: 1.5%;
+    font-size:1em;
+}

@@ -141,21 +141,14 @@ select{
     width: 700px;
 }
 .p4{
-<<<<<<< HEAD
         font-weight: bold;
         border: 0.5px grey solid;
         font-size: 25px;
         border-radius: 15px;
         width: 700px;
     }
-=======
-    font-weight: bold;
-    border: 0.5px grey solid;
-    font-size: 25px;
-    border-radius: 15px;
-    width: 700px;
-}
->>>>>>> 09147f7b6d96fac808bf3382892d2a875160b5bd
+
+
 
 #ligne{
     border-style: solid;
@@ -170,17 +163,10 @@ select{
 }
 /* section simplon */
 .simplon img{
-<<<<<<< HEAD
-    border-radius: 6%;
-    height:auto ;
-    width:550px;
-=======
-
     border-radius: 6%;
     height:auto ;
     width:550px;
 
->>>>>>> 09147f7b6d96fac808bf3382892d2a875160b5bd
 }
 
 .simplon{
@@ -383,12 +369,8 @@ select{
     bottom:170px;left:470px;
     padding: 6px;
     font-size: 25px;
-<<<<<<< HEAD
     font-weight:bolder
-=======
-    font-weight: bolder;
->>>>>>> 09147f7b6d96fac808bf3382892d2a875160b5bd
-}
+ }
 .history img{
     border-bottom-color:#ce0033  ;
     border-bottom-style:solid;

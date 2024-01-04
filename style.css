@@ -150,7 +150,8 @@ select{
 
 
 
-#ligne{
+
+#ligne1{
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -166,7 +167,6 @@ select{
     border-radius: 6%;
     height:auto ;
     width:550px;
-
 }
 
 .simplon{
@@ -371,6 +371,7 @@ select{
     font-size: 25px;
     font-weight:bolder
  }
+
 .history img{
     border-bottom-color:#ce0033  ;
     border-bottom-style:solid;
@@ -414,6 +415,7 @@ select{
   position:relative;
   top:80px;left:150px
 }
+
 form{
     display:flex;
     margin-left: 315px;

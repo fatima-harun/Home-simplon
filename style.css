@@ -79,6 +79,28 @@ ul{
     display:flex;
     justify-content: space-around;
 }
+.apprenant1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.p3{
+    font-size: 25px;
+    padding-top: 70px;
+    padding-left: 50px;
+    background-color: rgb(246, 238, 238);
+    width: 50%;
+    
+
+}
+.img_apprenant img{
+    display: inline-block;
+    width: 700px;
+}
+.p4{
+    font-weight: bold;
+}
+
 #ligne{
     border-style: solid;
     border-color: black;
@@ -334,6 +356,55 @@ form span{
 }
 .formulaire{
     margin-right: 56px;
+}
+
+h2{
+    color: rgb(206, 0, 51);
+    font-size: 30px;
+}
+.alumni{
+    display: flex;
+    justify-content: space-around;
+}
+.histoire{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.alumni1{
+    font-size: 30px;
+    background-color: rgb(253, 247, 247);
+    padding-top: 150px;
+
+}
+#photo_alumni{
+    display: inline-block;
+    width: 800px;
+    margin-right: 40px;
+}
+.p_alumni{
+    font-weight: bold;
+}
+.alumni2{
+    
+
+}
+.histoire1{
+    border: 3px rgb(220, 215, 215) solid;
+}
+.p_histoire{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.img19 img{
+    height: auto;
+    border-radius: 70px;
+    width: 120px;
+}
+.p_histoire1{
+    display: flex;
+    justify-content: space-evenly;
 }
 footer{
     display: flex;

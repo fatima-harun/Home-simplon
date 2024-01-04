@@ -141,14 +141,15 @@ select{
     width: 700px;
 }
 .p4{
-    font-weight: bold;
-    border: 0.5px grey solid;
-    font-size: 25px;
-    border-radius: 15px;
-    width: 700px;
-}
-       
-    
+        font-weight: bold;
+        border: 0.5px grey solid;
+        font-size: 25px;
+        border-radius: 15px;
+        width: 700px;
+    }
+
+
+
 
 #ligne1{
     border-style: solid;
@@ -163,7 +164,7 @@ select{
 }
 /* section simplon */
 .simplon img{
-  border-radius: 6%;
+    border-radius: 6%;
     height:auto ;
     width:550px;
 }
@@ -369,8 +370,8 @@ select{
     padding: 6px;
     font-size: 25px;
     font-weight:bolder
+ }
 
-}
 .history img{
     border-bottom-color:#ce0033  ;
     border-bottom-style:solid;

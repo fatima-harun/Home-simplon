@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
 }
+/* Section nav */
 li{
     list-style: none;
     margin: 27px;
@@ -18,12 +19,31 @@ ul{
     display:flex;
     
 }
+ul button{
+    background-color: #ce0033;
+    color: white;
+    font-weight:bolder;
+    font-size: 15px;
+    padding: 7px;
+    border-radius:15px ;
+    border-style: none;
+}
+select{
+    font-weight: bolder;
+    border-style: none;
+}
+.logo_acceuil{
+    width:200px;
+     height:auto;
+}
+/* partie du reseau fabrique avec la background image */
 .section1{
-    background-image: url("26.png");
+    background:rgba(0,0,0,0.5)url("26.png");
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
     padding: 140px;
+    background-blend-mode: darken;
 }
 .section1 .p1{
   font-size: 47px;
@@ -32,6 +52,16 @@ ul{
 .section1 .p2{
   font-size: 20px;
 }
+.btn2{
+    background-color: #ce0033;
+    color: white;
+    font-weight:bolder;
+    font-size: 15px;
+    padding: 18px;
+    border-radius:25px ;
+    border-style: none;
+}
+/* section de présentation de samba */
 .formateur{
     display:flex;
     justify-content: space-around;
@@ -75,6 +105,16 @@ ul{
     position:relative;
     bottom:30px;right: 40px;
 }
+.samba button{
+    background-color: #ce0033;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius:15px ;
+    border-style: none;
+    position:relative;
+    left:210px
+}
 .formateurs{
     display:flex;
     justify-content: space-around;
@@ -112,8 +152,15 @@ ul{
     font-size: xx-large;
     color:#ce0033
 }
+/* section simplon */
 .simplon img{
+<<<<<<< HEAD
     border-radius: 7px;
+=======
+    border-radius: 6%;
+    height:auto ;
+    width:550px;
+>>>>>>> 98b3cd5221fcb60eeb1682d24d501628696cb3cf
 }
 
 .simplon{
@@ -128,7 +175,7 @@ ul{
 .simplon_au_senegal h2{
   font-size: 40px;
   font-family: sans-serif;
-  color:rgb(189, 4, 35)
+  color:#ce0033
 }
 .simplon_au_senegal p{
   font-size: 24px;
@@ -140,15 +187,28 @@ ul{
     display:flex;
     justify-content: space-evenly;
 }
+/* section nos nouvelles */
 .nouvelles h2{
   font-size: 48px;
-  color: rgb(205, 6, 40);
+  color: #ce0033;
   font-family: sans-serif;
   text-align: center;
 }
 .nouvelles h3{
-    color: rgb(205, 6, 40);
+    color:#ce0033;
     font-size: 35px;
+}
+.img_nouvelles{
+    height:auto;
+     width:330px;
+}
+.fusee{
+    height:auto ;
+    width: 20px;
+}
+.grp_etudiant{
+    height:auto;
+     width:350px;
 }
 .para1{
     font-size: 20px;
@@ -164,18 +224,20 @@ ul{
     
     width: 35px;
     color: white;
-    background-color: rgb(208, 23, 54);
+    background-color: #ce0033;
     padding: 6px;
     text-align: center;
     position:relative;
     top:30px;left:270px;
     border-bottom: 30px;
+    border-bottom-left-radius:26px ;
+    border-bottom-right-radius:26px ;
 }
 .date span{
     font-size: 7px;
 }
 .actualités{
-    color:rgb(221, 13, 48);
+    color:#ce0033;
     font-size: 25px;
     text-align: right;
 }
@@ -197,7 +259,7 @@ ul{
     width: 40%;
     padding-right: 15px;
     color:white;
-    background-color: rgb(213, 8, 42);
+    background-color: #ce0033;
 }
 .first_box span{
   font-size:15px
@@ -205,9 +267,10 @@ ul{
 .actualité h3{
     margin-left:990px;
     font-size: 25px;
-    color:rgb(189, 11, 41);
+    color:#ce0033;
     font-weight: lighter;
 }
+/* section evolution */
 .evolution{
     background:rgba(0,0,0,0.5)url("images/groupe.png");
     background-repeat: no-repeat;
@@ -245,6 +308,7 @@ ul{
 .mini_caisse{
     text-align: center;
 }
+/* section communauté */
 .communauté{
     display:flex;
     justify-content: center;
@@ -254,12 +318,18 @@ ul{
   font-size: 18px;
   line-height: 1.5;
 }
+#ligne3{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 90px;
+    width:70px ;
+}
 .history{
     margin-right: 50px;
 }
 .second_div h2{
-    color:rgb(194, 8, 39);
-    margin-bottom: 60px;
+    color:#ce0033;
 }
 .history div{
     font-weight: bolder;
@@ -267,42 +337,45 @@ ul{
 }
 .history .first_p{
     color:white;
-    background-color:rgb(187, 5, 35) ;
+    background-color:#ce0033 ;
     width: 250px;
     text-align: center;
-    border-top-right-radius:45% ;
-    border-bottom-right-radius: 45%;
-    padding: 10px;
+    border-top-right-radius:36% ;
+    border-bottom-right-radius: 36%;
+    padding: 13px;
     position:relative;
     top:75px;right:40px
 }
 .heure{
     color:white;
-    background-color:rgb(187, 5, 35) ;
+    background-color:#ce0033 ;
     width: 60px;
     position:relative;
     margin-top: 0;
     bottom:75px;left:470px;
 }
 .history img{
-    border-bottom-color:rgb(187, 5, 35)  ;
+    border-bottom-color:#ce0033  ;
     border-bottom-style:solid;
     border-radius: 0;
     border-bottom-width: 6px;
 }
 .history .second_p{
-    border-style: solid;
     padding: 21px;
-    border-width: 0.1px;
-    border-radius: 5px;
-    box-shadow: 6px;
-    border-color: rgb(222, 218, 218);
+    border-color: white;
     font-weight: bolder;
-    
+    width: 5px;
+    font-size: 25px;
 }
 .second_div{
-    margin-top: 45px;
+    margin-top: 80px;
 }
+.apprenant{
+    height:auto;
+    width:570px;
+    margin-bottom: 26px;
+}
+/* section */
 .image{
   text-align: center;
 }
@@ -311,13 +384,13 @@ ul{
     bottom:362px
 }
 .equipe_pedagogique h2{
-  color:rgb(201, 9, 41);
+  color:#ce0033;
   font-weight: bold;
   font-size: 40px;
 }
 .equipe_pedagogique h3{
   color:white;
-  background-color:rgb(183, 12, 40);
+  background-color:#ce0033;
   padding:8px;
   width:200px ;
   position:relative;
@@ -329,7 +402,7 @@ form{
 }
 .contact{
     text-align: center;
-    color:rgb(187, 14, 43);
+    color:#ce0033;
     font-size: xx-large;
 }
 input{
@@ -350,7 +423,7 @@ textarea{
     border-color:rgb(231, 221, 221);
 }
 form span{
- color:rgb(164, 7, 33);
+ color:#ce0033;
  font-size:medium;
  font-weight: bolder;
 }
@@ -421,14 +494,14 @@ footer p{
     color:rgb(182, 180, 180)
 }
 #btn-joindre{
-    background-color: rgb(192, 15, 50);
+    background-color: #ce0033;
     color: white;
     border: none;
     cursor: pointer;
 }
 aside{
     color:white;
-    background-color: crimson;
+    background-color: #ce0033;
     padding: 1.5%;
     font-size:1em;
 }

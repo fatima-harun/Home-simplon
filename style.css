@@ -139,6 +139,10 @@ select{
 }
 .p4{
     font-weight: bold;
+    border: 0.5px grey solid;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 700px;
 }
 
 #ligne{
@@ -154,13 +158,11 @@ select{
 }
 /* section simplon */
 .simplon img{
-<<<<<<< HEAD
-    border-radius: 7px;
-=======
+
     border-radius: 6%;
     height:auto ;
     width:550px;
->>>>>>> 98b3cd5221fcb60eeb1682d24d501628696cb3cf
+
 }
 
 .simplon{
@@ -352,7 +354,10 @@ select{
     width: 60px;
     position:relative;
     margin-top: 0;
-    bottom:75px;left:470px;
+    bottom:170px;left:470px;
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .history img{
     border-bottom-color:#ce0033  ;
@@ -448,20 +453,25 @@ h2{
     font-size: 30px;
     background-color: rgb(253, 247, 247);
     padding-top: 150px;
+    margin-bottom: 170px;
 
 }
 #photo_alumni{
     display: inline-block;
     width: 800px;
     margin-right: 40px;
+    position: relative;
+
 }
 .p_alumni{
     font-weight: bold;
+    border: 0.3px grey solid;
+    font-size: 30px;
+    padding-left: 70px;
+    border-radius: 10px;
+    width: 720px;
 }
-.alumni2{
-    
 
-}
 .histoire1{
     border: 3px rgb(220, 215, 215) solid;
 }

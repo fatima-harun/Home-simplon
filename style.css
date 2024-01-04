@@ -150,7 +150,7 @@ select{
        
     
 
-#ligne{
+#ligne1{
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -414,6 +414,7 @@ select{
   position:relative;
   top:80px;left:150px
 }
+
 form{
     display:flex;
     margin-left: 315px;

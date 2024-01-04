@@ -1,7 +1,6 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
-    
 }
 /* mise en page du header */
 #logo-fabrique{
@@ -52,46 +51,72 @@ nav ul {
     display: flex;
     align-items: center;
 }
-/* styliser la section de la fabrique et des missions */
-.gros_titre{
+/* styliser la section de la petite histoire */
+h1{
    text-align: center;
-   background-image:url("images/arrièreplan.png") ;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 300px;
-   font-size: x-large;
-   color: white;
+   font-size: 3em;
    font-weight: bolder;
+   color: rgb(218, 17, 57);
+   margin-bottom: 9%;
 }
+#histoire h2{
+    border: solid;
+    margin-top: 4em;
+    text-align: right;
+    font-size: 2.6em;
+    padding:0.4em;
+    background-color: rgb(199, 8, 46);
+    color: white;
+    border-radius: 0 0 99px 0;
+    padding-left:1em ;
+    padding-right:1.1em ;
+    height: 1%;
+    box-shadow:0.3px 17px rgb(243, 91, 121) , 1.5px 34px rgb(235, 192, 200)
+ }
 
-.missions p{
-   width: 250px;
-   line-height: 2;
-   font-size:15px
+#histoire p{
+  width: 20em;
+  line-height:2em;
+  font-size: 1.2em;
+  padding: 2em;
+  margin:1em;
+  text-align: center;
+  border-style:solid;
+  border-color: rgb(241, 184, 196);
+  border-width:0.1em;
+  border-radius: 17px;
+  position:absolute;
+  right:8%;
+  background-color: white;
 }
-.fabric{
-  display:flex;
-  justify-content: center;
-  background-color:#CE0033;
-  color:white;
-  opacity:0.9;
+#paragraphe{
+  background-color: crimson;
+  color: crimson;
+  width: 20em;
+  line-height:2em;
+  font-size: 1.2em;
+  padding: 2em;
+  margin:1em;
+  text-align: center;
+  border: 0.1em solid rgb(241, 184, 196);
+  border-radius: 17px;
+  margin-right: 9%;
+  padding-bottom: 3%;
+  transform-origin: top right;
+  transform: rotate(7.2deg);
 }
-.missions{
-    margin-right: 35px;
-    margin-left: 50px;
-}
-.missions h2{
-    font-size: 30px;
-}
-/* La petite histoire */
-.femme{
-    height: auto;
-    width: 450px;
-}
-.ouverture p{
-  width: 400px;
-  line-height: 2;
+#histoire{
+display: flex;
+justify-content: space-between;
 
+}
+#année{
+font-size: 1.5em;
+font-weight: bold;
+}
+.quote{
+    height:auto;
+    height: 5em;
 }
 /* styliser la partie pédagogie */
 .titres{
@@ -218,7 +243,7 @@ nav ul {
     display:flex;
     justify-content: space-evenly;
     align-content:center ;
-    background-image: url("imgfab/arriere pan.png");
+    background-image: url("les images/Design sans titre (2).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2%;
@@ -427,7 +452,7 @@ textarea{
 footer{
     display: flex;
     justify-content:space-evenly;
-    background-image: url("imgfab/Design sans titre (1).png");
+    background-image: url("les images/Design sans titre (1).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding:4%;
@@ -464,3 +489,33 @@ aside{
 aside span{
     margin-left: 61%;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 1%; 
+    }
+
+    #logo-fabrique {
+        width: 20%; 
+    }
+
+    nav ul li {
+        margin-right: 5%; 
+    }
+
+    #paragraphe {
+        display: none; 
+    }
+}
+
+
+
+
+
+
+
+

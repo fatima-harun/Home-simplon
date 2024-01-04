@@ -124,22 +124,29 @@ select{
     justify-content: space-between;
     margin-right: 100px;
 }
+
 .p3{
     font-size: 24px;
     padding-top: 70px;
     padding-left: 50px;
     background-color: rgb(246, 238, 238);
-    width: 50%;
+     width: 50%;
+    
+ }
     
 
-}
+
 .img_apprenant img{
     display: inline-block;
     width: 700px;
 }
 .p4{
-    font-weight: bold;
-}
+        font-weight: bold;
+        border: 0.5px grey solid;
+        font-size: 25px;
+        border-radius: 15px;
+        width: 700px;
+    }
 
 #ligne{
     border-style: solid;
@@ -154,13 +161,9 @@ select{
 }
 /* section simplon */
 .simplon img{
-<<<<<<< HEAD
-    border-radius: 7px;
-=======
     border-radius: 6%;
     height:auto ;
     width:550px;
->>>>>>> 98b3cd5221fcb60eeb1682d24d501628696cb3cf
 }
 
 .simplon{
@@ -308,6 +311,14 @@ select{
 .mini_caisse{
     text-align: center;
 }
+.arrow{
+    height: auto;
+    width: 60px;
+}
+.add{
+    height: auto;
+    width: 35px;
+}
 /* section communauté */
 .communauté{
     display:flex;
@@ -352,7 +363,10 @@ select{
     width: 60px;
     position:relative;
     margin-top: 0;
-    bottom:75px;left:470px;
+    bottom:170px;left:470px;
+    padding: 6px;
+    font-size: 25px;
+    font-weight:bolder
 }
 .history img{
     border-bottom-color:#ce0033  ;
@@ -375,7 +389,8 @@ select{
     width:570px;
     margin-bottom: 26px;
 }
-/* section */
+
+/* fin section */
 .image{
   text-align: center;
 }
@@ -457,6 +472,11 @@ h2{
 }
 .p_alumni{
     font-weight: bold;
+    border: 0.3px grey solid;
+    font-size: 30px;
+    padding-left: 70px;
+    border-radius: 10px;
+    width: 720px;
 }
 .alumni2{
     

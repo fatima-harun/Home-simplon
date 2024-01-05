@@ -1,5 +1,8 @@
 body{
     font-family: sans-serif;
+     max-width: 100%;
+     overflow-x: hidden;
+
 }
 /* Section nav */
 li{
@@ -15,6 +18,14 @@ li a{
     color: black;
     font-weight: bolder;
 }
+
+li a:hover{
+    border-bottom: 5px solid #ce0033; /* Soulignement épais au survol */
+    color: #ce0033;
+    padding-bottom: 48px;
+    
+
+}
 ul{
     display:flex;
     
@@ -27,10 +38,22 @@ ul button{
     padding: 7px;
     border-radius:15px ;
     border-style: none;
+   
+}
+li iconify-icon{
+    margin-top: -8px;
+}
+.select{
+    display: flex;
+    gap: 15px;
+    margin-left: -25px;
+    margin-top: -8px;
+   
 }
 select{
     font-weight: bolder;
     border-style: none;
+    background: none; 
 }
 .logo_acceuil{
     width:200px;
@@ -52,6 +75,10 @@ select{
 .section1 .p2{
   font-size: 20px;
 }
+#btn2{
+    margin-top: 50px;
+    
+}
 .btn2{
     background-color: #ce0033;
     color: white;
@@ -60,6 +87,130 @@ select{
     padding: 18px;
     border-radius:25px ;
     border-style: none;
+    width: 200px;
+}
+/* section simplon */
+.simplon img{
+    border-radius: 6%;
+    height:auto ;
+    width:430px;
+}
+
+#simplon{
+    margin-top: 0%;
+    
+}
+.simplon{
+    display:flex;
+    background-color: rgb(253, 235, 238);
+    justify-content: center;
+    padding:25px;
+
+}
+.simplon_image{
+    margin-top: 5%;
+}
+.simplon_au_senegal{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.simplon_au_senegal h2{
+  font-size: 30px;
+  font-family: sans-serif;
+  color:#ce0033
+}
+.simplon_au_senegal p{
+  font-size: 18px;
+  font-family:sans-serif;
+  width: 500px;
+  line-height: 1.8;
+}
+/* section nos nouvelles */
+.box{
+    display:flex;
+    justify-content: space-evenly;
+}
+.nouvelles h2{
+  font-size: 48px;
+  color: #ce0033;
+  font-family: sans-serif;
+  text-align: center;
+}
+.nouvelles h3{
+    color:#ce0033;
+    font-size: 35px;
+}
+.img_nouvelles{
+    height:auto;
+     width:330px;
+}
+.fusee{
+    height:auto ;
+    width: 20px;
+}
+.grp_etudiant{
+    height:auto;
+     width:350px;
+}
+.para1{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.para2{
+  font-size: 17px;
+  color: rgb(106, 105, 105);
+  line-height: 1.5;
+  width: 250px
+}
+.date{
+    
+    width: 35px;
+    color: white;
+    background-color: #ce0033;
+    padding: 6px;
+    text-align: center;
+    position:relative;
+    top:30px;left:270px;
+    border-bottom: 30px;
+    border-bottom-left-radius:26px ;
+    border-bottom-right-radius:26px ;
+}
+.date span{
+    font-size: 7px;
+}
+.actualités{
+    color:#ce0033;
+    font-size: 25px;
+    text-align: right;
+}
+.first_box{
+    display:flex;
+}
+.first_box p{
+    margin-left: 20px;
+    line-height: 1.3;
+}
+.caisse{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.first_box{
+    margin-right: 25px;
+    border-style: solid;
+    width: 40%;
+    padding-right: 15px;
+    color:white;
+    background-color: #ce0033;
+}
+.first_box span{
+  font-size:15px
+}
+.actualité h3{
+    margin-left:990px;
+    font-size: 25px;
+    color:#ce0033;
+    font-weight: lighter;
 }
 /* section de présentation de samba */
 .formateur{
@@ -162,120 +313,10 @@ select{
     font-size: xx-large;
     color:#ce0033
 }
-/* section simplon */
-.simplon img{
-    border-radius: 6%;
-    height:auto ;
-    width:550px;
-}
 
-.simplon{
-    display:flex;
-    background-color: rgb(253, 235, 238);
-    justify-content: center;
-    padding:25px;
-}
-.simplon_au_senegal{
-    margin-left: 5%;
-}
-.simplon_au_senegal h2{
-  font-size: 40px;
-  font-family: sans-serif;
-  color:#ce0033
-}
-.simplon_au_senegal p{
-  font-size: 24px;
-  font-family:sans-serif;
-  width: 597px;
-  line-height: 1.8;
-}
-.box{
-    display:flex;
-    justify-content: space-evenly;
-}
-/* section nos nouvelles */
-.nouvelles h2{
-  font-size: 48px;
-  color: #ce0033;
-  font-family: sans-serif;
-  text-align: center;
-}
-.nouvelles h3{
-    color:#ce0033;
-    font-size: 35px;
-}
-.img_nouvelles{
-    height:auto;
-     width:330px;
-}
-.fusee{
-    height:auto ;
-    width: 20px;
-}
-.grp_etudiant{
-    height:auto;
-     width:350px;
-}
-.para1{
-    font-size: 20px;
-    line-height: 1.3;
-}
-.para2{
-  font-size: 17px;
-  color: rgb(106, 105, 105);
-  line-height: 1.5;
-  width: 250px
-}
-.date{
-    
-    width: 35px;
-    color: white;
-    background-color: #ce0033;
-    padding: 6px;
-    text-align: center;
-    position:relative;
-    top:30px;left:270px;
-    border-bottom: 30px;
-    border-bottom-left-radius:26px ;
-    border-bottom-right-radius:26px ;
-}
-.date span{
-    font-size: 7px;
-}
-.actualités{
-    color:#ce0033;
-    font-size: 25px;
-    text-align: right;
-}
-.first_box{
-    display:flex;
-}
-.first_box p{
-    margin-left: 20px;
-    line-height: 1.3;
-}
-.caisse{
-    display:flex;
-    justify-content: center;
-    font-size: 30px;
-}
-.first_box{
-    margin-right: 25px;
-    border-style: solid;
-    width: 40%;
-    padding-right: 15px;
-    color:white;
-    background-color: #ce0033;
-}
-.first_box span{
-  font-size:15px
-}
-.actualité h3{
-    margin-left:990px;
-    font-size: 25px;
-    color:#ce0033;
-    font-weight: lighter;
-}
+
+
+
 /* section evolution */
 .evolution{
     background:rgba(0,0,0,0.5)url("images/groupe.png");

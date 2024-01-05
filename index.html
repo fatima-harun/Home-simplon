@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <!-- Section header -->
-    <header class="nav-bar">
+      <!-- Section header -->
+      <header class="nav-bar">
         <div class="img1">
          <a href="Acceuil" title="Logo_simplon"><img src="photos_simplon.png" alt="Logo_simplon" class="logo_acceuil" ></a>
         </div>
@@ -20,13 +20,16 @@
                <li><a href="#" title="Partenariats">Partenariats</a></li>
                <li><a href="#" title="Espaces">Espaces</a></li>
                 <li><a href="#" title="Entités">Entités</a></li>
-               <li><box-icon name='search-alt-2'></box-icon></li>
+
+               <li><iconify-icon icon="bitcoin-icons:search-outline" width="30" height="30"></iconify-icon></li>
               <li>
-                 <select>
-                    <option>Fr</option>
-                    <option>En </option>
-                 </select>
-                  <button>Contact</button>
+                 <div class="select">
+                    <select>
+                        <option>Fr</option>
+                        <option>En </option>
+                     </select>
+                      <button>Contact</button>
+                 </div>
               </li>
             </ul>
     </header>
@@ -34,26 +37,30 @@
       <div class="section1">
          <p class="p1">Simplon,<br>réseau de Fabriques <br> numériques et inclusives</p>
          <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Suspendisse varius enim in eros elementum tristique</p>
-         <button class="btn2">Nous contacter</button>
+         <div id="btn2">
+            <button class="btn2">Nous contacter</button>
+         </div>
       </div>
-      <!-- Section simplon -->
-      <div class="simplon">
-        <div><img src="images/32.png" alt="image d'une dame"  ></div>
-          <div class="simplon_au_senegal">
-             <h2>SIMPLON AU SENEGAL</h2>
-            <p>Affichant un taux de chômage supérieur à 16%, 
-                l'intégration des jeunes et des femmes sur le marché 
-                du travail est un enjeu crucial au Sénégal. Pour le 
-                gouvernement, et avec le plan Sénégal 2025”, 
-                l'inclusion numérique est devenue une priorité, visant à 
-                doter le pays d'infrastructures numériques modernes 
-                et de faciliter la création de 35 000 emplois d'ici 2025.Alors que le numérique représente déjà 8% du PIB 
-                national, les compétences tech se font encore rares.
-                Se former aux métiers du numérique ouvre de belles 
-                perspectives d avenir, quels que soient les secteurs d'activité
-            </p>
+    <!-- Section simplon -->
+    <section id="simplon">
+        <div class="simplon">
+            <div class="simplon_image"><img src="images/32.png" alt="image d'une dame" width="100" height="150" ></div>
+            <div class="simplon_au_senegal">
+                <h2>SIMPLON AU SENEGAL</h2>
+                <p>Affichant un taux de chômage supérieur à 16%, 
+                    l'intégration des jeunes et des femmes sur le marché 
+                    du travail est un enjeu crucial au Sénégal. Pour le 
+                    gouvernement, et avec le plan Sénégal 2025”, 
+                    l'inclusion numérique est devenue une priorité, visant à 
+                    doter le pays d'infrastructures numériques modernes 
+                    et de faciliter la création de 35 000 emplois d'ici 2025.Alors que le numérique représente déjà 8% du PIB 
+                    national, les compétences tech se font encore rares.
+                    Se former aux métiers du numérique ouvre de belles 
+                    perspectives d avenir, quels que soient les secteurs d'activité
+                </p>
+            </div>
         </div>
-      </div>
+    </section>
       <!-- section nouvelles -->
       <div class="nouvelles">
           <h2>Nos Nouvelles</h2>

@@ -289,58 +289,75 @@ select{
     width: 35px;
 }
 /* section de présentation de samba */
+#formateur{
+    margin-top: 15%;
+    margin-left: 4%;
+}
+#titre{
+    margin-bottom: 6%;
+}
+.titre{
+    font-size: xx-large;
+    color:#ce0033;
+    border-bottom: 3px solid #000; /* Soulignement épais au survol */
+    padding-bottom: 10px;
+    width: 7%;
+}
 .formateur{
     display:flex;
     justify-content: space-around;
 }
-.sambabery{
-    height: auto;
-    width: 230px;
-    border-radius: 5px;
-}
-.ligne{
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    width: 150px;
-}
-.samba{
-    margin-left: 35px;
-}
-.samba p{
-    width: 250px;
-    color: rgb(97, 96, 96);
-}
+
 .box_samba{
     display:flex;
-    border-style: solid;
-    padding: 15px;
-    border-width: 1px;
-    border-color: rgb(219, 214, 214);
+    border: 1px solid white;
     border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px -5px ;
+    padding: 2%;
 }
+.sambabery{
+    height: auto;
+    width: 180px;
+    border-radius: 5px;
+}
+
 .samba h3{
-    font-size:
-     25px;
+   
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin: 0%;
+    width: 90%;
 }
+
+
+.samba p{
+    width: 220px;
+    color: rgb(97, 96, 96);
+    font-size: 13px;
+}
+
 .samba h4{
     color:rgb(82, 82, 82);
     font-size:20px;
     font-weight: lighter;
+    margin: 3%;
 }
 .sambabery{
     position:relative;
-    bottom:30px;right: 40px;
+    bottom:30px;
+    right: 40px;
 }
 .samba button{
     background-color: #ce0033;
     color: white;
     font-size: 17px;
+    width: 120px;
     padding: 7px;
     border-radius:15px ;
     border-style: none;
     position:relative;
-    left:210px
+    left:180px
 }
 .formateurs{
     display:flex;
@@ -385,10 +402,7 @@ select{
     margin-bottom: 70px;
     width:70px ;
 }
-#formateur{
-    font-size: xx-large;
-    color:#ce0033
-}
+
 
 
 

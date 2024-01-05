@@ -127,7 +127,7 @@ select{
 }
 /* section nos nouvelles */
 #nouvelles{
-    margin: 3%;
+    margin: 5%;
 }
 #nouvelles h1{
     font-weight: bold;
@@ -135,7 +135,7 @@ select{
     text-align: center;
     margin-bottom: 8%;
 }
-#nouvelles h2{
+#nouvelles h3{
     color:#ce0033;
     font-weight: bold;
     margin-left: 2%;
@@ -188,7 +188,7 @@ select{
     
    
 }
-#nouvelles #icon h3{
+#nouvelles #icon h4{
     text-align: right;
     color: #ce0033;
  
@@ -236,6 +236,57 @@ select{
     max-height: 50%;
     margin-left: 10%;
     margin-top: 2%;
+}
+/* section evolution */
+.evolution{
+    background:rgba(0,0,0,0.5)url("images/groupe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    max-width: 100%;
+    padding: 10%;
+    color:white;
+    
+    
+}
+#decouverte h1{
+    color: #ce0033;
+    margin-left:1020px ;
+    font-weight: bold;
+}
+.evolution h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.evolution p{
+    font-size: 25px;
+    line-height: 1.7;
+}
+.triple_caisse{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #ce0033;
+   margin-left: 9%;
+   margin-top: -10%;
+    
+    width: 80%;
+}
+.triple_caisse h3{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.mini_caisse{
+    text-align: center;
+}
+.arrow{
+    height: auto;
+    width: 60px;
+}
+.add{
+    height: auto;
+    width: 35px;
 }
 /* section de présentation de samba */
 .formateur{
@@ -342,52 +393,7 @@ select{
 
 
 
-/* section evolution */
-.evolution{
-    background:rgba(0,0,0,0.5)url("images/groupe.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-blend-mode:darken;
-    padding: 80px;
-    padding-bottom: 300px;
-    color:white;
-}
-.evolution h2{
-    color: white;
-    font-weight: bolder;
-    font-size: 60px;
-}
-.evolution p{
-    font-size: 25px;
-    line-height: 1.7;
-}
-.triple_caisse{
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    background-image: url("images/arriere pan.png");
-    background-repeat: no-repeat;
-    align-content: center;
-    position: relative;
-    width: 1098px;
-    bottom:110px;left: 150px;
 
-}
-.triple_caisse h3{
-  font-size: 50px;
-  margin-bottom: 0;
-}
-.mini_caisse{
-    text-align: center;
-}
-.arrow{
-    height: auto;
-    width: 60px;
-}
-.add{
-    height: auto;
-    width: 35px;
-}
 /* section communauté */
 .communauté{
     display:flex;

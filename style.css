@@ -307,24 +307,35 @@ body{
     width: 35px;
 }
 /* section de présentation de samba */
-#formateur{
-    margin-top: 15%;
-    margin-left: 4%;
+
+
+#formateur {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
 }
-#titre{
-    margin-bottom: 6%;
+
+#titre {
+    margin-bottom: 4%; /* Ajuster l'espacement sous le titre pour les écrans plus petits */
 }
-#titre .titre{
-    font-size: xx-large;
-    color:#ce0033;
-    border-bottom: 3px solid #000; /* Soulignement épais au survol */
-    padding-bottom: 10px;
-    width: 7%;
+
+#formateur h1{
+    font-weight: bold;
+    color: #ce0033;
+    border-bottom: 3px solid #000;
+    padding-bottom: 8%;
 }
+#formateur #titre{
+
+    max-width: 7%;
+}
+
 .formateur{
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
 }
+
+
 
 .box_samba{
     display:flex;
@@ -335,24 +346,29 @@ body{
     padding: 2%;
 }
 .sambabery{
-    height: auto;
-    width: 180px;
+    width: 120px; /* Ajuster la largeur de l'image pour les écrans plus petits */
     border-radius: 5px;
+    margin-bottom: 10px; /* Espacement entre l'image et le contenu pour les écrans plus petits */
+    
 }
 
 .samba h3{
    
+    font-size: 20px; /* Ajuster la taille du titre pour les écrans plus petits */
+    text-align: center; /* Centrer le titre horizontalement */
+    width: 100%; /* Ajuster la largeur du titre */
+    
+}
+.samba h3 span{
     border-bottom: 1px solid #000;
-    padding-bottom: 10px;
-    margin: 0%;
-    width: 90%;
+    padding-bottom: 5px; /* Ajustez selon votre préférence */
 }
 
 
 .samba p{
     width: 220px;
     color: rgb(97, 96, 96);
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .samba h4{
@@ -376,6 +392,7 @@ body{
     border-style: none;
     position:relative;
     left:180px
+    
 }
 .formateurs{
     display:flex;
@@ -1016,6 +1033,17 @@ body{
 
 .triple_caisse h3 {
     font-size: 30px; /* Taille du nombre pour les écrans plus petits */
+}
+/*formateur*/
+ /* Ajouter des styles spécifiques pour les écrans plus grands si nécessaire */
+ .formateurs {
+    flex-direction: column; /* Passer à une disposition en colonne pour les petits écrans */
+    align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.box_samba {
+    width: 80%; /* Ajuster la largeur pour éviter le débordement */
+    margin-bottom: 50px; /* Ajouter de l'espace entre les boîtes */
 }
 
 }

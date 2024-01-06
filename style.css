@@ -266,16 +266,19 @@ body{
 }
 #decouverte h1{
     color: #ce0033;
-    margin-left:1020px ;
+    display: flex;
+    justify-content: end;
     font-weight: bold;
+    
 }
 .evolution h2{
     color: white;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 40px; /* Ajuster la taille du titre pour les écrans plus petits */
+    margin-bottom: 20px; /* Espacement sous le titre */
 }
 .evolution p{
-    font-size: 25px;
+    font-size: 20px; /* Ajuster la taille du paragraphe pour les écrans plus petits */
     line-height: 1.7;
 }
 .triple_caisse{
@@ -977,11 +980,12 @@ body{
 .simplon_au_senegal {
     margin: 5% 0; /* Ajuster la marge en haut et en bas */
     text-align: center; /* Centrer le texte horizontalement */
-    max-width: 500px; /* Ajuster la largeur maximale du texte */
+    max-width: 90%; /* Ajuster la largeur maximale du texte */
 }
 
 .simplon_au_senegal p {
-    font-size: 18px;
+    font-size: 100%;
+   
     line-height: 1.8;
 }
 /*section nouvelles*/
@@ -996,6 +1000,22 @@ body{
 /*section event*/
 #event .event1 {
     max-width: 90%; /* Ajuster la largeur des événements pour les écrans plus petits */
+}
+/*section découverte*/
+.evolution h2 {
+    font-size: 30px; /* Taille du titre pour les écrans plus petits */
+}
+
+.evolution p {
+    font-size: 16px; /* Taille du paragraphe pour les écrans plus petits */
+}
+
+.triple_caisse .mini_caisse {
+    flex: 1 1 80%; /* Largeur des éléments pour les écrans plus petits */
+}
+
+.triple_caisse h3 {
+    font-size: 30px; /* Taille du nombre pour les écrans plus petits */
 }
 
 }

@@ -9,30 +9,32 @@
 
 <body>
       <!-- Section header -->
-      <header class="nav-bar">
-        <div class="img1">
-         <a href="Acceuil" title="Logo_simplon"><img src="photos_simplon.png" alt="Logo_simplon" class="logo_acceuil" ></a>
-        </div>
-            <ul>
-                <li><a href="#" title="Acceuil">Acceuil</a></li>
-                <li><a href="fabrique.html" title="Fabrique">Fabrique</a></li>
-               <li><a href="#" title="Formations">Formations</a></li>
-               <li><a href="#" title="Partenariats">Partenariats</a></li>
-               <li><a href="#" title="Espaces">Espaces</a></li>
-                <li><a href="#" title="Entités">Entités</a></li>
-
-               <li><iconify-icon icon="bitcoin-icons:search-outline" width="30" height="30"></iconify-icon></li>
-              <li>
-                 <div class="select">
-                    <select>
-                        <option>Fr</option>
-                        <option>En </option>
-                     </select>
-                      <button>Contact</button>
-                 </div>
-              </li>
-            </ul>
-    </header>
+     <section id="header">
+        <header class="nav-bar">
+            <div class="img1">
+             <a href="Acceuil" title="Logo_simplon"><img src="photos_simplon.png" alt="Logo_simplon" class="logo_acceuil" ></a>
+            </div>
+                <ul>
+                    <li><a href="#" title="Acceuil">Acceuil</a></li>
+                    <li><a href="fabrique.html" title="Fabrique">Fabrique</a></li>
+                   <li><a href="#" title="Formations">Formations</a></li>
+                   <li><a href="#" title="Partenariats">Partenariats</a></li>
+                   <li><a href="#" title="Espaces">Espaces</a></li>
+                    <li><a href="#" title="Entités">Entités</a></li>
+    
+                   <li><iconify-icon icon="bitcoin-icons:search-outline" width="30" height="30"></iconify-icon></li>
+                  <li>
+                     <div class="select">
+                        <select>
+                            <option>Fr</option>
+                            <option>En </option>
+                         </select>
+                          <button>Contact</button>
+                     </div>
+                  </li>
+                </ul>
+        </header>
+     </section>
     <!-- section du réseau fabrique -->
       <div class="section1">
          <p class="p1">Simplon,<br>réseau de Fabriques <br> numériques et inclusives</p>
@@ -486,47 +488,72 @@
     </div>
 </section>
 <!--Footer-->
-
-    <footer>
-        <div>
-            <img src="whitelogo.png" alt="logo-de-simplon" id="simplon"> <br>
-             <box-icon type='logo' name='twitter' color="blue" class="réseau"></box-icon>
-             <box-icon name='facebook' type='logo' color='blue' class="réseau"></box-icon>
-             <box-icon name='instagram' type='logo' color='red' class="réseau"></box-icon>
-             <box-icon name='youtube' type='logo' color='red' class="réseau" ></box-icon>
+<section id="footer">
+    <div class="container">
+        <div id="logo">
+            <div class="logo">
+                <img src="14.png" alt="" class="img14">
+                <p>SÉNÉGAL</p>
+            </div>
+            <div class="icon">
+                <a href=""><iconify-icon icon="logos:twitter" width="30" height="30"></iconify-icon></a>
+                <a href=""><iconify-icon icon="logos:facebook" width="30" height="30"></iconify-icon></a>
+                <a href=""><iconify-icon icon="skill-icons:instagram" width="30" height="30"></iconify-icon></a>
+                <a href=""><iconify-icon icon="logos:youtube-icon" width="30" height="30"></iconify-icon></a>
+            </div>
         </div>
-         <div>
-           <h2>Voir plus</h2>
-           <p>A propos</p>
-           <p>Notre histoire</p>
-           <p>Condition d'utilisation</p>
-           <p>Politique de confidentialité</p>
-           <p>FAQ</p>
-           <p><a href="app.html">Espace Etudiant</a></p>
+        <div class="infos">
+            <ul>
+                 <li><a href=""><h1> Voir plus</h1></a></li>
+                 <li><a href="">A propos</a></li>
+                 <li> <a href="">Notre histoire</a></li>
+                 <li><a href="">Condition d utilisation</a></li>
+                 <li><a href="">Politique de confidentialité</a></li>
+                 <li> <a href="">FAQ</a></li>
+            </ul>
          </div>
-         <div>
-             <h2>Coordonnées</h2>
-             <p>Cité keur Goor Gi <br>
-             Dakar,Sicap,Liberté 2 <br>
-              Senegal</p>
-             <p>simplon@email.com <br>
-             help@simplon.com</p>
-             <p>(221) 77 456 78 90 <br>
-                 (221) 77 654 32 10
-             </p>
-         </div>
-         <div><h2>Notre Newsletter</h2>
-             <p>Souscrivez-vous à notre <br>
-                 newsletter pour ne manquer <br>
-                 aucune de nos activités</p>
-     
-           <input type="email" name="email" placeholder="Email" aria-label="email" aria-required="true" required id="email"><button aria-label="bouton joindre" id="btn-joindre">Joindre</button>
+        <div class="coordonne">
+            <div class="titre">
+                <h1>Coordonnées</h1>
+            </div>
+            <div class="adresse">
+                <p>
+                    Cité keur Goor Gi <br> Dakar, Sicap, Libeté 2 <br> Senegal
+                </p>
+            </div>
+            <div class="email">
+                <p>
+                    <a href="">simplon@email.com</a>
+                    <a href="">help@simplon.com</a> <br>
+                    <li> (221) 77 456 78 90 <br>
+                        (221) 77 654 32 10
+                    </li>
+                </p>
+            </div>
         </div>
-      </footer>
-      <!-- partie des infos complèmentaires -->
-      <aside > 
-        &copy; 2021  Simplon. All rights reserved.
-        <span>Made with by <box-icon name='heart' type='solid' color='black'></box-icon>SimplonP4</span></aside>
+        <div class="newsletter">
+            <div class="titre">
+                <h1>Notre Newsletter</h1>
+            </div>
+            <div class="texte">
+                <p>Souscrivez-vous à notre
+                    newsletter pour ne manquer
+                    aucune de nos activités
+                </p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="email">
+                <p class="joindre"> <span>Joindre</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="baspage">
+        <div class="copy1">
+            <p class="copy">© 2021 Simplon. All rights reserved.</p>
+            <p class="made">Made with by SimplonP4</p>
+        </div>
+</section>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>   
     </body>
     </html>

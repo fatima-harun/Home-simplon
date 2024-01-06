@@ -5,32 +5,32 @@ body{
 
 }
 /* Section nav */
-li{
+#header li{
     list-style: none;
     margin: 27px;
 }
-header{
+#header header{
     display:flex;
     justify-content: space-between;
 }
-li a{
+#header li a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
 }
 
-li a:hover{
+#header li a:hover{
     border-bottom: 5px solid #ce0033; /* Soulignement épais au survol */
     color: #ce0033;
     padding-bottom: 48px;
     
 
 }
-ul{
+#header ul{
     display:flex;
     
 }
-ul button{
+#header  ul button{
     background-color: #ce0033;
     color: white;
     font-weight:bolder;
@@ -40,22 +40,22 @@ ul button{
     border-style: none;
    
 }
-li iconify-icon{
+#header  li iconify-icon{
     margin-top: -8px;
 }
-.select{
+#header  .select{
     display: flex;
     gap: 15px;
     margin-left: -25px;
     margin-top: -8px;
    
 }
-select{
+#header  select{
     font-weight: bolder;
     border-style: none;
     background: none; 
 }
-.logo_acceuil{
+#header  .logo_acceuil{
     width:200px;
      height:auto;
 }
@@ -729,29 +729,150 @@ select{
 #contact .re{
     color:darkgray;
 }
-footer{
+/*footer*/
+#footer{
+    background-image: url('18.png');
+    background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
+    background-position: center; /* Positionne l'image au centre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 5% 2% 10% 2%;
+    margin-top: 5%;
+    
+}
+#footer .container{
     display: flex;
-    justify-content:space-evenly;
-    background-image: url("images/Design sans titre (1).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:4%;
+    justify-content: space-between;
+    
 }
-footer h2{
-    color: white;
+#footer #logo{
+    display: inline-block;
+    max-width: 25%;
+    
+   
 }
-footer p{
-    color:rgb(182, 180, 180)
+#footer .logo p{
+    font-size: 60%;
+   position: absolute;
+   left: 6%;
+   margin-top: -2%;
+    color: #ffff;
+  
 }
-#btn-joindre{
+#footer .img14{
+    width: 50%;
+    margin: 5%;
+}
+#footer .icon{
+    max-width: 90%;
+    margin-top: 20%;
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+#footer .infos{
+    max-width: 25%;
+    margin-top: -2%;
+  
+   
+}
+#footer .infos h1,.coordonne h1,.newsletter h1{
+    color: #ffff;
+}
+
+
+#footer li a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+    display: flex;
+}
+#footer .infos ul {
+    list-style: none; /* Supprime les puces */
+    line-height: 1.5;
+    
+}
+
+#footer .infos li {
+    margin-bottom: 5%; 
+    color: rgb(201, 187, 187);
+    text-decoration: none;
+    list-style: none;
+   
+}
+#footer .coordonne{
+    display: inline-block;
+    margin-left: 4%;
+    max-width: 25%;
+    color: rgb(201, 187, 187);
+}
+
+#footer .adresse{
+    margin-top: 10%;
+}
+#footer.email{
+    margin-top: 15%;
+}
+#footer .email a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+}
+#footer .email li{
+    list-style: none;
+}
+#footer .newsletter{
+    display: inline-block;
+    max-width: 25%;
+    color: rgb(201, 187, 187);
+}
+#footer .input{
+    max-width: 100%;
+    display: flex;
+
+    margin-top: 20%;
+
+}
+#footer input{
+    height: 100%;
+    padding: 4.3%;
+    border-radius: 8%;
+}
+#footer .joindre{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 1.1%;
+    border-radius: 8%;
+    margin-left: 15%;
+    margin-top: -0.1%;
+    position:absolute;
+    background: #ce0033;
+}
+#baspage{
     background-color: #ce0033;
-    color: white;
-    border: none;
-    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    padding: 3%;
+
 }
-aside{
-    color:white;
-    background-color: #ce0033;
-    padding: 1.5%;
-    font-size:1em;
+.copy1 {
+    display: flex;
+    justify-content: space-between; /* Écarte les éléments le plus possible */
 }
+
+.copy {
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+/* Pour aligner le texte à droite */
+.made {
+    margin: 0;
+    margin-left: auto; /* Pousse l'élément à droite de la ligne */
+}
+
+
+
+
+

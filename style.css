@@ -123,8 +123,7 @@ body{
     margin-left: 5%;
     margin-top: 5%;
 }
-.simplon_au_senegal h2{
-  font-size: 30px;
+.simplon_au_senegal h1{
   font-family: sans-serif;
   color:#ce0033
 }
@@ -952,4 +951,31 @@ body{
         width: 150px; /* Ajuster la largeur du bouton */
         padding: 12px; /* Ajuster le rembourrage */
     }
+    /*section simplon*/
+    /* Ajustements pour centrer le contenu de la section */
+.simplon {
+    padding: 15px; /* Ajuster le padding pour les appareils plus petits */
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    flex-direction: column; /* Affiche les éléments en colonne */
+}
+
+.simplon img {
+    width: 100%; /* Remplir la largeur du conteneur */
+    max-width: none; /* Ajuster la largeur maximale de l'image */
+    height: auto; /* Ajuster la hauteur automatiquement */
+}
+
+.simplon_au_senegal {
+    margin: 5% 0; /* Ajuster la marge en haut et en bas */
+    text-align: center; /* Centrer le texte horizontalement */
+    max-width: 500px; /* Ajuster la largeur maximale du texte */
+}
+
+.simplon_au_senegal p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
 }

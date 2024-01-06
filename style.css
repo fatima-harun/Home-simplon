@@ -884,12 +884,7 @@ body{
 /*resposivité*/
 @media screen and (max-width: 1050px) {
     /* Modifiez ici les styles pour s'adapter aux écrans plus petits */
-    body{
-        font-family: sans-serif;
-         max-width: 100%;
-         overflow-x: hidden;
     
-    }
     .menu-toggler {
         position: absolute;
         top: 1%;
@@ -918,15 +913,12 @@ body{
     }
     
    /* Ajoutez des styles pour les liens */
-.links-visible .nav-links {
+   .links-visible .nav-links {
     display: flex !important; /* Affiche les liens lorsque la classe 'links-visible' est présente */
     flex-direction: column; /* Affiche les liens en colonne */
     gap: 10px; /* Espace entre les éléments */
     align-items: center; /* Centre les éléments horizontalement */
-}
-
-   
-    
+   }
 
     #header li {
         margin: 10px 0; /* Augmente l'espacement entre les éléments */
@@ -941,5 +933,23 @@ body{
     #header .nav-links {
         flex-direction: column; /* Affiche les liens en colonne */
         gap: 10px; /* Espace entre les éléments réduit */
+    }
+    /*section reseau*/
+    .section1 {
+        padding: 10%; /* Réduire le padding pour les appareils plus petits */
+        background-position: center; /* Centrer l'image de fond */
+    }
+
+    .section1 .p1 {
+        font-size: 32px; /* Ajuster la taille du texte */
+    }
+
+    .section1 .p2 {
+        font-size: 16px; /* Ajuster la taille du texte */
+    }
+
+    .btn2 {
+        width: 150px; /* Ajuster la largeur du bouton */
+        padding: 12px; /* Ajuster le rembourrage */
     }
 }

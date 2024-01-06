@@ -610,6 +610,45 @@ select{
     position:absolute;
     background: #ce0033;
 }
+#histoire_communauté{
+    margin-top: 12%;
+}
+#histoire_communauté .titre{
+   
+    margin-bottom: 7%;
+}
+
+#histoire_communauté h1{
+    color: rgb(206, 0, 51);
+    margin-left: 4%;
+}
+
+#histoire_communauté .histoire{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#histoire_communauté .histoire1{
+    background-color: #fff;
+    box-shadow: 0 5px 5px -5px ;
+   
+    
+}
+.p_histoire{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.img19 img{
+    height: auto;
+    border-radius:50%;
+    width: 80px;
+}
+.p_histoire1{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 form{
     display:flex;
@@ -646,59 +685,6 @@ form span{
     margin-right: 56px;
 }
 
-h2{
-    color: rgb(206, 0, 51);
-    font-size: 30px;
-}
-.alumni{
-    display: flex;
-    justify-content: space-around;
-}
-.histoire{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.alumni1{
-    font-size: 30px;
-    background-color: rgb(253, 247, 247);
-    padding-top: 150px;
-    margin-bottom: 170px;
-
-}
-#photo_alumni{
-    display: inline-block;
-    width: 800px;
-    margin-right: 40px;
-    position: relative;
-
-}
-.p_alumni{
-    font-weight: bold;
-    border: 0.3px grey solid;
-    font-size: 30px;
-    padding-left: 70px;
-    border-radius: 10px;
-    width: 720px;
-}
-
-.histoire1{
-    border: 3px rgb(220, 215, 215) solid;
-}
-.p_histoire{
-    font-size: 20px;
-    padding: 20px;
-    
-}
-.img19 img{
-    height: auto;
-    border-radius: 70px;
-    width: 120px;
-}
-.p_histoire1{
-    display: flex;
-    justify-content: space-evenly;
-}
 footer{
     display: flex;
     justify-content:space-evenly;

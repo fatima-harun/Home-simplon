@@ -209,22 +209,23 @@ body{
 /*event*/
 #event{
     margin: 10% 3% 0 3%;
+    
 }
 #event .event{
-    margin-top: 1%;
-    margin-bottom: 1%;
+
     display: flex;
-    justify-content: space-evenly;
-   
+    flex-wrap: wrap; /* Permettre aux événements de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
     
 }
 #event .event1{
     background-color: #ce0033;
     color: #ffff;
     display: flex;
-    max-width: 50%;
+    max-width: 45%;
     margin: 1%;
     padding: 1%;
+    
 }
 #event .titre{
     color: #ce0033;
@@ -992,11 +993,9 @@ body{
     text-align: left; /* Aligner à gauche sur les écrans plus petits */
     margin-top: 10px; /* Réduire l'espace en haut */
 }
-#nouvelles .card #deco{
-  
-   
-    
-
+/*section event*/
+#event .event1 {
+    max-width: 90%; /* Ajuster la largeur des événements pour les écrans plus petits */
 }
 
 }

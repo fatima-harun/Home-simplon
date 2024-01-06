@@ -154,7 +154,7 @@ body{
 }
 #nouvelles .card #deco{
     color: #ffff;
-    font-size: 16px;
+    font-size: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,9 +168,15 @@ body{
 
 }
 #nouvelles .card1{
-    max-width: 25%;
+    flex: 1 1 22%; /* Ajuster la largeur des cartes pour les écrans plus petits */
     margin: 1%;
 }
+#nouvelles .card {
+    display: flex;
+    flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
+}
+
 #nouvelles .img{
     width: 100%;
     height: 50%;
@@ -178,7 +184,7 @@ body{
 }
 
 #nouvelles .paragraph1{
-    font-size: 18px;
+    font-size: 16px; /* Ajuster la taille du texte */
     line-height: 1.3;
     }
  #nouvelles .paragraph2{
@@ -189,18 +195,18 @@ body{
     }
 
 
-#nouvelles #icon{
-   
-    display: flex;
-    float: right;
-    
-   
-}
+    #nouvelles #icon {
+        text-align: right; /* Aligner à droite */
+        margin-top: 20px; /* Ajouter de l'espace en haut */
+        display: flex;
+        justify-content: end;
+    }
 #nouvelles #icon h4{
-    text-align: right;
     color: #ce0033;
+    margin-right: 5px; /* Ajouter un espace à droite */
  
 }
+/*event*/
 #event{
     margin: 10% 3% 0 3%;
 }
@@ -976,6 +982,21 @@ body{
 .simplon_au_senegal p {
     font-size: 18px;
     line-height: 1.8;
+}
+/*section nouvelles*/
+#nouvelles .card1 {
+    flex: 1 1 45%; /* Ajuster la largeur des cartes pour les écrans plus petits */
+}
+
+#nouvelles #icon {
+    text-align: left; /* Aligner à gauche sur les écrans plus petits */
+    margin-top: 10px; /* Réduire l'espace en haut */
+}
+#nouvelles .card #deco{
+  
+   
+    
+
 }
 
 }

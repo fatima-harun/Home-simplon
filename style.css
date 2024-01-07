@@ -472,22 +472,7 @@ body{
     opacity: 0.5;
    
 }
-#apprenant .img12a{
-    max-width: 12%;
-    max-height: 10%;
-    position: absolute;
-    margin-left: 22%;
-    margin-top: -25%;
-   
-}
-#apprenant .img12b{
-    max-width: 12%;
-    max-height: 10%;
-    position: absolute;
-    margin-left: 43%;
-    margin-top: -25%;
-   
-}
+
 
 #apprenant #heure span{
     color: #ffff;
@@ -495,27 +480,14 @@ body{
     font-size: 16px;
     display: inline-block;
     text-align: center;
-    width: 5%;
-    padding: 0.3%;
-    margin-left: 40%;
-    margin-top: -5%;
+    width: 7%;
+    padding: 0.8%;
+    margin-left: 14%;
+    margin-top: -7%;
     position:absolute;
     background: #ce0033;
 }
 
-#apprenant #heure2 span{
-    color: #ffff;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-block;
-    text-align: center;
-    width: 5%;
-    padding: 0.3%;
-    margin-left: 40%;
-    margin-top: -5%;
-    position:absolute;
-    background: #ce0033;
-}
 
 /* communauté*/
 #histoire{ 
@@ -1045,5 +1017,53 @@ body{
     width: 80%; /* Ajuster la largeur pour éviter le débordement */
     margin-bottom: 50px; /* Ajouter de l'espace entre les boîtes */
 }
+/*apprenant */
+#apprenant {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
+}
+.apprenants{
+   flex-direction: column;
+}
+
+
+#apprenant .student,
+#apprenant .image {
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+
+#apprenant .text1,
+#apprenant .image #deco1{
+    font-size: 12px; /* Ajuster la taille de la police pour les écrans plus petits */
+}
+/* Styles supplémentaires pour ajuster la disposition */
+#apprenant .text1 {
+    margin-left: 0; /* Réinitialiser la marge pour les écrans plus petits */
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+#apprenant .img12{
+    width: 10%;
+    height: auto;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -50%;
+    
+   
+}
+#apprenant #heure span{
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 8%;
+    padding: 1.5%;
+    margin-left: 30%;
+    margin-top: -13%;
+    position:absolute;
+  
+}
+
 
 }

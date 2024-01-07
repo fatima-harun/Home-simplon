@@ -1037,6 +1037,11 @@ body{
 #apprenant .image #deco1{
     font-size: 12px; /* Ajuster la taille de la police pour les écrans plus petits */
 }
+#apprenant .image #deco1{
+   
+    width: 14%;
+   
+}
 /* Styles supplémentaires pour ajuster la disposition */
 #apprenant .text1 {
     margin-left: 0; /* Réinitialiser la marge pour les écrans plus petits */
@@ -1054,6 +1059,57 @@ body{
    
 }
 #apprenant #heure span{
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 8%;
+    padding: 1.5%;
+    margin-left: 30%;
+    margin-top: -13%;
+    position:absolute;
+  
+}
+#histoire {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
+}
+.history{
+   flex-direction: column;
+}
+
+
+#histoire .student,
+#histoire .image {
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+
+#histoire .text1,
+#histoire .image #deco2{
+    font-size: 12px; /* Ajuster la taille de la police pour les écrans plus petits */
+}
+#histoire .image #deco2{
+   
+    width: 30%;
+   
+}
+/* Styles supplémentaires pour ajuster la disposition */
+#histoire .text1 {
+    margin-left: 0; /* Réinitialiser la marge pour les écrans plus petits */
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+#histoire .img12c{
+    width: 10%;
+    height: auto;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -50%;
+    
+   
+}
+#histoire #heure1 span{
     font-size: 12px;
     display: inline-block;
     text-align: center;

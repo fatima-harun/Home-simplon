@@ -673,30 +673,35 @@ body{
 
 /*contact*/
 #contact {
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 8%;
+    margin-left: 3%;
 }
 #contact .formulaire{
     display: flex;
-   margin-top: 7%;
-    text-decoration: colunm;
+   margin-top: 5%;
+  
 }
+
 #contact h1{
     text-align: center;
     color: #ce0033;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
-#contact input{
+#contact .nou input{
     padding: 3%;
     width: 270px;
-    
     margin-left: 50px;
     border-radius:5%;
     box-shadow: 3px 3px 3px -5px ;
 }
+
 #contact .nmc{
-    margin-left: 200px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px auto;
 }
 #contact .mes{
 
@@ -706,9 +711,8 @@ body{
 }
 #contact .mes textarea{
     width: 100%;
-    height:170px ;
+    height: 120px;
     padding: 3%;
-    
     border-radius:5%;
     box-shadow: 3px 3px 3px -5px ;
 }
@@ -720,23 +724,22 @@ body{
 #contact b{
    color: #ce0033;
    font-weight: bold;
+   margin-left: 2px;
 }
 #contact .envoyer{
-    border-radius:35px;
+    border-radius:25px;
     background:#ce0033 ;
     color:white ;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 10px 20px;
     width: 200px;
     height: 45px;
-}
-#contact .last{
-    margin-top: 2px;
-    margin-left: 3%;
+    margin: 10px auto; /* Centre le bouton horizontalement */
 }
 #contact .adresse{
     display: flex;
+    
 }
 #contact .adresse img{
     margin-right: 40px;
@@ -745,9 +748,17 @@ body{
 #contact .truc{
     display: block;
 }
-#contact .re{
-    color:darkgray;
+#contact label{
+    display: flex;
+    align-items: center;
+    
 }
+
+#contact  .checkbox input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+
 /*footer*/
 #footer{
     background-image: url('18.png');
@@ -1170,5 +1181,54 @@ body{
     padding: 5px; /* Ajuster le padding pour les écrans plus petits */
 }
 
+#contact .formulaire {
+    flex-direction: column;
+}
+#contact .nou input {
+    width: 100%;
+    margin: 2%;
+}
+#contact .mes textarea{
+    width: 90%;
+    height: 100px;
+    padding: 3%;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px -5px ;
+}
+#contact .last {
+    text-align: center;
+}
 
+#contact .nmc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+#contact .adresse {
+    display: flex;
+    margin: 10px;
+}
+
+}
+/* Pour les appareils plus petits (mobiles) */
+@media screen and (max-width: 480px) {
+    #contact h1 {
+        font-size: 24px;
+    }
+    #contact .nou input, #contact .mes textarea {
+        padding: 2%;
+        font-size: 14px;
+    }
+    #contact .envoyer {
+        font-size: 16px;
+        width: 160px;
+        height: 40px;
+    }
+    #contact .adresse img {
+        margin-right: 20px;
+        margin-top: 15px;
+    }
 }

@@ -625,20 +625,23 @@ body{
     background: #ce0033;
 }
 #histoire_communauté{
-    margin-top: 12%;
+    margin-top: 8%;
 }
+
 #histoire_communauté .titre{
    
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
 
 #histoire_communauté h1{
     color: rgb(206, 0, 51);
     margin-left: 4%;
+    font-size: 24px;
 }
 
 #histoire_communauté .histoire{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
    
 }
@@ -646,7 +649,8 @@ body{
 #histoire_communauté .histoire1{
     background-color: #fff;
     box-shadow: 0 5px 5px -5px ;
-    width: 30%;
+    width: 30%; 
+    margin-bottom: 20px;
    
     
 }
@@ -974,15 +978,16 @@ body{
 }
 
 .simplon_au_senegal {
-    margin: 5% 0; /* Ajuster la marge en haut et en bas */
+    margin: 0; /* Ajuster la marge en haut et en bas */
     text-align: center; /* Centrer le texte horizontalement */
     max-width: 90%; /* Ajuster la largeur maximale du texte */
+    overflow: auto;
 }
 
 .simplon_au_senegal p {
-    font-size: 100%;
-   
+    font-size: 80%;
     line-height: 1.8;
+   
 }
 /*section nouvelles*/
 #nouvelles .card1 {
@@ -1146,8 +1151,23 @@ body{
 
 .equipe_pedagogique .image #deco1{
     font-size: 8px;
-    
-    
+}
+/*petite histoire */
+#histoire_communauté .histoire1 {
+    width: 80%; /* Ajuster la largeur des éléments pour les écrans plus petits */
+}
+
+#histoire_communauté h1 {
+    font-size: 20px; /* Ajuster la taille du titre pour les écrans plus petits */
+}
+
+.img19 img {
+    width: 50px; /* Ajuster la taille de l'image pour les écrans plus petits */
+}
+
+.p_histoire {
+    font-size: 12px; /* Ajuster la taille du texte pour les écrans plus petits */
+    padding: 5px; /* Ajuster le padding pour les écrans plus petits */
 }
 
 

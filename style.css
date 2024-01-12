@@ -1,41 +1,73 @@
 body{
     font-family: sans-serif;
+     max-width: 100%;
+     overflow-x: hidden;
+
 }
 /* Section nav */
-li{
+/* Section nav */
+#header .nav-bar {
+    display: flex;
+    justify-content: space-between; /* Écarte les éléments le plus possible */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+#header li {
     list-style: none;
-    margin: 27px;
+    margin: 0 10px; /* Ajuste l'espacement des liens */
 }
-header{
-    display:flex;
+
+#header header {
+    display: flex;
     justify-content: space-between;
+    align-items: center; /* Aligne verticalement les éléments du header */
+    width: 100%; /* Assure que le header prend toute la largeur */
 }
-li a{
+.menu-toggler {
+    display: none; /* Cache le toggler par défaut */
+}
+
+#header li a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
 }
-ul{
-    display:flex;
-    
+
+#header li a:hover {
+    border-bottom: 5px solid #ce0033; /* Soulignement épais au survol */
+    color: #ce0033;
+    padding-bottom: 5px; /* Ajuste l'espace sous le texte au survol */
 }
-ul button{
+
+#header .nav-links {
+    display: flex;
+    list-style: none; /* Supprime les puces des liens */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Espace égal entre les éléments */
+}
+
+#header ul button {
     background-color: #ce0033;
     color: white;
-    font-weight:bolder;
-    font-size: 15px;
-    padding: 7px;
-    border-radius:15px ;
-    border-style: none;
-}
-select{
     font-weight: bolder;
-    border-style: none;
+    font-size: 15px;
+    padding: 7px 15px; /* Ajuste le padding du bouton */
+    border-radius: 15px;
+    border: none; /* Utilise 'border: none' pour la bordure */
 }
-.logo_acceuil{
-    width:200px;
-     height:auto;
+
+#header select {
+    font-weight: bolder;
+    border: none; /* Utilise 'border: none' pour la bordure */
+    background: none;
 }
+
+#header .logo_acceuil {
+    width: 200px;
+    height: auto;
+}
+
 /* partie du reseau fabrique avec la background image */
 .section1{
     background:rgba(0,0,0,0.5)url("26.png");
@@ -52,6 +84,10 @@ select{
 .section1 .p2{
   font-size: 20px;
 }
+#btn2{
+    margin-top: 50px;
+    
+}
 .btn2{
     background-color: #ce0033;
     color: white;
@@ -60,252 +96,200 @@ select{
     padding: 18px;
     border-radius:25px ;
     border-style: none;
-}
-/* section de présentation de samba */
-.formateur{
-    display:flex;
-    justify-content: space-around;
-}
-.sambabery{
-    height: auto;
-    width: 230px;
-    border-radius: 5px;
-}
-.ligne{
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    width: 150px;
-}
-.samba{
-    margin-left: 35px;
-}
-.samba p{
-    width: 250px;
-    color: rgb(97, 96, 96);
-}
-.box_samba{
-    display:flex;
-    border-style: solid;
-    padding: 15px;
-    border-width: 1px;
-    border-color: rgb(219, 214, 214);
-    border-radius: 8px;
-}
-.samba h3{
-    font-size:
-     25px;
-}
-.samba h4{
-    color:rgb(82, 82, 82);
-    font-size:20px;
-    font-weight: lighter;
-}
-.sambabery{
-    position:relative;
-    bottom:30px;right: 40px;
-}
-.samba button{
-    background-color: #ce0033;
-    color: white;
-    font-size: 17px;
-    padding: 7px;
-    border-radius:15px ;
-    border-style: none;
-    position:relative;
-    left:210px
-}
-.formateurs{
-    display:flex;
-    justify-content: space-around;
-}
-.apprenant1{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
-}
-
-.p3{
-    font-size: 24px;
-    padding-top: 70px;
-    padding-left: 50px;
-    background-color: rgb(246, 238, 238);
-     width: 50%;
-    
- }
-    
-
-
-.img_apprenant img{
-    display: inline-block;
-    width: 700px;
-}
-.p4{
-        font-weight: bold;
-        border: 0.5px grey solid;
-        font-size: 25px;
-        border-radius: 15px;
-        width: 700px;
-    }
-
-
-
-
-#ligne1{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin-bottom: 70px;
-    width:70px ;
-}
-#formateur{
-    font-size: xx-large;
-    color:#ce0033
+    width: 200px;
 }
 /* section simplon */
 .simplon img{
     border-radius: 6%;
     height:auto ;
-    width:550px;
+    width:430px;
 }
 
+#simplon{
+    margin-top: 0%;
+    
+}
 .simplon{
     display:flex;
     background-color: rgb(253, 235, 238);
     justify-content: center;
     padding:25px;
+
+}
+.simplon_image{
+    margin-top: 5%;
 }
 .simplon_au_senegal{
     margin-left: 5%;
+    margin-top: 5%;
 }
-.simplon_au_senegal h2{
-  font-size: 40px;
+.simplon_au_senegal h1{
   font-family: sans-serif;
   color:#ce0033
 }
 .simplon_au_senegal p{
-  font-size: 24px;
+  font-size: 18px;
   font-family:sans-serif;
-  width: 597px;
+  width: 500px;
   line-height: 1.8;
 }
-.box{
-    display:flex;
-    justify-content: space-evenly;
-}
 /* section nos nouvelles */
-.nouvelles h2{
-  font-size: 48px;
-  color: #ce0033;
-  font-family: sans-serif;
-  text-align: center;
+#nouvelles{
+    margin: 5%;
 }
-.nouvelles h3{
-    color:#ce0033;
-    font-size: 35px;
-}
-.img_nouvelles{
-    height:auto;
-     width:330px;
-}
-.fusee{
-    height:auto ;
-    width: 20px;
-}
-.grp_etudiant{
-    height:auto;
-     width:350px;
-}
-.para1{
-    font-size: 20px;
-    line-height: 1.3;
-}
-.para2{
-  font-size: 17px;
-  color: rgb(106, 105, 105);
-  line-height: 1.5;
-  width: 250px
-}
-.date{
-    
-    width: 35px;
-    color: white;
-    background-color: #ce0033;
-    padding: 6px;
+#nouvelles h1{
+    font-weight: bold;
+    color: #ce0033;
     text-align: center;
-    position:relative;
-    top:30px;left:270px;
-    border-bottom: 30px;
-    border-bottom-left-radius:26px ;
-    border-bottom-right-radius:26px ;
+    margin-bottom: 8%;
 }
-.date span{
-    font-size: 7px;
-}
-.actualités{
+#nouvelles h3{
     color:#ce0033;
-    font-size: 25px;
-    text-align: right;
+    font-weight: bold;
+    margin-left: 2%;
 }
-.first_box{
-    display:flex;
+#nouvelles .card{
+    display: flex;
+
 }
-.first_box p{
-    margin-left: 20px;
+#nouvelles .card .deco{
+    color: #ffff;
+    font-size: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3%;
+    padding-bottom: 1%;
+    border-radius: 0 0 60% 60%;
+    margin-left: 15%;
+    margin-top: -20px;
+    position:absolute;
+    background: #ce0033;
+
+}
+#nouvelles .card1{
+    flex: 1 1 22%; /* Ajuster la largeur des cartes pour les écrans plus petits */
+    margin: 1%;
+}
+#nouvelles .card {
+    display: flex;
+    flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
+}
+
+#nouvelles .img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+#nouvelles .paragraph1{
+    font-size: 16px; /* Ajuster la taille du texte */
     line-height: 1.3;
+    }
+ #nouvelles .paragraph2{
+    font-size: 14px;
+    color: rgb(106, 105, 105);
+    line-height: 1.5;
+    width: 250px
+    }
+
+
+    #nouvelles #icon {
+        text-align: right; /* Aligner à droite */
+        margin-top: 20px; /* Ajouter de l'espace en haut */
+        display: flex;
+        justify-content: end;
+    }
+#nouvelles #icon h4{
+    color: #ce0033;
+    margin-right: 5px; /* Ajouter un espace à droite */
+ 
 }
-.caisse{
-    display:flex;
-    justify-content: center;
-    font-size: 30px;
+/*event*/
+#event{
+    margin: 10% 3% 0 3%;
+    
 }
-.first_box{
-    margin-right: 25px;
-    border-style: solid;
-    width: 40%;
-    padding-right: 15px;
-    color:white;
+#event .event{
+
+    display: flex;
+    flex-wrap: wrap; /* Permettre aux événements de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
+    
+}
+#event .event1{
     background-color: #ce0033;
+    color: #ffff;
+    display: flex;
+    max-width: 45%;
+    margin: 1%;
+    padding: 1%;
+    
 }
-.first_box span{
-  font-size:15px
+#event .titre{
+    color: #ce0033;
+    font-weight: bold;
+    margin-left: 1%;
 }
-.actualité h3{
-    margin-left:990px;
-    font-size: 25px;
-    color:#ce0033;
-    font-weight: lighter;
+#event .date{
+    padding: 1%;
+    margin-left:5%;
+}
+#event b{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#event .bodyevent{
+    text-align: center;
+    max-width: 57%;
+    font-weight: bold;
+    display: flex;
+    margin-left: 3%;
+}
+#event iconify-icon{
+    max-height: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 /* section evolution */
 .evolution{
     background:rgba(0,0,0,0.5)url("images/groupe.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-blend-mode:darken;
-    padding: 80px;
-    padding-bottom: 300px;
+    max-width: 100%;
+    padding: 10%;
     color:white;
+    
+    
+}
+#decouverte h1{
+    color: #ce0033;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    
 }
 .evolution h2{
     color: white;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 40px; /* Ajuster la taille du titre pour les écrans plus petits */
+    margin-bottom: 20px; /* Espacement sous le titre */
 }
 .evolution p{
-    font-size: 25px;
+    font-size: 20px; /* Ajuster la taille du paragraphe pour les écrans plus petits */
     line-height: 1.7;
 }
 .triple_caisse{
     display: flex;
     justify-content: space-evenly;
     color: white;
-    background-image: url("images/arriere pan.png");
-    background-repeat: no-repeat;
-    align-content: center;
-    position: relative;
-    width: 1098px;
-    bottom:110px;left: 150px;
-
+    background-color: #ce0033;
+   margin-left: 9%;
+   margin-top: -10%;
+    
+    width: 80%;
 }
 .triple_caisse h3{
   font-size: 50px;
@@ -322,211 +306,998 @@ select{
     height: auto;
     width: 35px;
 }
-/* section communauté */
-.communauté{
+/* section de présentation de samba */
+
+
+#formateur {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
+}
+
+#titre {
+    margin-bottom: 4%; /* Ajuster l'espacement sous le titre pour les écrans plus petits */
+}
+
+#formateur h1{
+    font-weight: bold;
+    color: #ce0033;
+    border-bottom: 3px solid #000;
+    padding-bottom: 8%;
+}
+#formateur #titre{
+
+    max-width: 7%;
+}
+
+.formateur{
+    display: flex;
+    flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne sur les petits écrans */
+    justify-content: space-around; /* Espacement égal entre les cartes */
+}
+
+
+
+.box_samba{
     display:flex;
-    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px -5px ;
+    padding: 2%;
 }
-.second_div p{
-  width: 335px;
-  font-size: 18px;
-  line-height: 1.5;
+.sambabery{
+    width: 120px; /* Ajuster la largeur de l'image pour les écrans plus petits */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espacement entre l'image et le contenu pour les écrans plus petits */
+    
 }
-#ligne3{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin-bottom: 90px;
-    width:70px ;
+
+.samba h3{
+   
+    font-size: 20px; /* Ajuster la taille du titre pour les écrans plus petits */
+    text-align: center; /* Centrer le titre horizontalement */
+    width: 100%; /* Ajuster la largeur du titre */
+    
 }
-.history{
-    margin-right: 50px;
+.samba h3 span{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px; /* Ajustez selon votre préférence */
 }
-.second_div h2{
-    color:#ce0033;
+
+
+.samba p{
+    width: 220px;
+    color: rgb(97, 96, 96);
+    font-size: 12px;
 }
-.history div{
-    font-weight: bolder;
+
+.samba h4{
+    color:rgb(82, 82, 82);
+    font-size:20px;
+    font-weight: lighter;
+    margin: 3%;
+}
+.sambabery{
+    position:relative;
+    bottom:30px;
+    right: 40px;
+}
+.samba button{
+    background-color: #ce0033;
+    color: white;
     font-size: 17px;
-}
-.history .first_p{
-    color:white;
-    background-color:#ce0033 ;
-    width: 250px;
-    text-align: center;
-    border-top-right-radius:36% ;
-    border-bottom-right-radius: 36%;
-    padding: 13px;
+    width: 120px;
+    padding: 7px;
+    border-radius:15px ;
+    border-style: none;
     position:relative;
-    top:75px;right:40px
+    left:180px
+    
 }
-.heure{
-    color:white;
-    background-color:#ce0033 ;
-    width: 60px;
-    position:relative;
-    margin-top: 0;
-    bottom:170px;left:470px;
-    padding: 6px;
-    font-size: 25px;
-    font-weight:bolder
- }
+.formateurs{
+    display:flex;
+    justify-content: space-around;
+}
 
-.history img{
-    border-bottom-color:#ce0033  ;
-    border-bottom-style:solid;
-    border-radius: 0;
-    border-bottom-width: 6px;
-}
-.history .second_p{
-    padding: 21px;
-    border-color: white;
-    font-weight: bolder;
-    width: 5px;
-    font-size: 25px;
-}
-.second_div{
-    margin-top: 80px;
-}
+/*apprenant*/
 .apprenant{
-    height:auto;
-    width:570px;
-    margin-bottom: 26px;
+    margin-top: 10%;
+    margin-left:6% ;
+    
 }
 
-/* fin section */
+.apprenant .apprenants{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.apprenant h1{
+    font-weight: bold;
+    color: #ce0033;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8%;
+}
+.apprenant .app{
+
+    max-width: 20%;
+}
+.apprenant .text{
+    background-color: whitesmoke;
+    padding:15%;
+    margin-top: 1%;
+    line-height: 2;
+}
+.apprenant .student{
+    display: inline-block;
+    max-width: 40%;
+}
+.apprenant .image{
+    max-width: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px -5px ;  
+    
+}
+
+.apprenant .img27{
+    width: 100%;
+    height: 70%;
+    border-bottom:  solid  #ce0033 10px;
+
+}
+.apprenant .text1{
+   max-width: 70%;
+   margin-left: 4%;
+    background-color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.apprenant .image .deco1{
+    color: #ffff;
+    font-size: 16px;
+    display: inline-block;
+    align-items: center;
+    width: 10%;
+    padding: 1%;
+    border-radius:   0 38% 38% 0 ;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
+}
+.apprenant .img12{
+    max-width: 12%;
+    max-height: 12%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -25%;
+    opacity: 0.5;
+   
+}
+
+
+.apprenant .heure span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 7%;
+    padding: 0.8%;
+    margin-left: 14%;
+    margin-top: -7%;
+    position:absolute;
+    background: #ce0033;
+}
+
+
+/* communauté*/
+#histoire{ 
+    margin-top: 10%;
+    margin-left:6% ;
+    
+}
+#histoire .history{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#histoire .app{
+
+    max-width: 77%;
+}
+#histoire .img13{
+    width: 100%;
+    height: 70%;
+    border-bottom:  solid  #ce0033 10px;
+
+}
+#histoire .img12c{
+    max-width: 12%;
+    max-height: 12%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -25%;
+    opacity: 0.5;
+   
+}
+#histoire .image{
+    max-width: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px -5px ;  
+    
+}
+#histoire #heure1 span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 0.3%;
+    margin-left: 14%;
+    margin-top: -5%;
+    position:absolute;
+    background: #ce0033;
+}
+#histoire .text1{
+    max-width: 80%;
+    margin-left: 4%;
+     font-weight: bold;
+     line-height: 2;
+ }
+#histoire h1{
+    font-weight: bold;
+    color: #ce0033;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8%;
+}
+
+#histoire .communaute{
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 5%;
+}
+#histoire .text2{
+    max-width: 70%;
+    text-align: center;
+    margin-top: 18%;
+    line-height: 2;
+}
+#histoire .image #deco2{
+    color: #ffff;
+    font-size: 12px;
+    display: inline-block;
+    align-items: center;
+    width: 13%;
+    padding: 1%;
+    border-radius:   0 38% 38% 0 ;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
+}
+
+
+
+/* equipe pédagogique*/
+#pédagogique{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
 .image{
   text-align: center;
 }
-.play{
-    position:relative;
-    bottom:362px
+.equipe_pedagogique .image img{
+    border-radius: 3%;
+    max-width: 100%; /* Ajuster la largeur de l'image pour les écrans plus petits */
+    height: auto; /* Ajuster la hauteur de l'image de manière proportionnelle */
 }
-.equipe_pedagogique h2{
+
+.play{
+    max-width: 10%;
+    max-height: 10%;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -25%;
+    opacity: 0.5;
+}
+
+.equipe_pedagogique h1{
   color:#ce0033;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
+  margin-left: 2%;
+  margin-bottom: 5%;
 }
-.equipe_pedagogique h3{
-  color:white;
-  background-color:#ce0033;
-  padding:8px;
-  width:200px ;
-  position:relative;
-  top:80px;left:150px
+#pédagogique h1 span{
+    border-bottom: 3px solid #000;
+    padding-bottom: 5px; /* Ajustez selon votre préférence */
 }
-
-form{
-    display:flex;
-    margin-left: 315px;
-}
-.contact{
-    text-align: center;
-    color:#ce0033;
-    font-size: xx-large;
-}
-input{
-    padding: 15px;
-    width: 250px;
-    font-size: 15px;
-    border-radius: 5px;
-    border-width: 0.3px;
-    border-color:rgb(231, 221, 221);
-    
-}
-textarea{
-    padding: 15px;
-    width: 550px;
-    font-size: 15px;
-    border-radius: 5px;
-    border-width: 0.3px;
-    border-color:rgb(231, 221, 221);
-}
-form span{
- color:#ce0033;
- font-size:medium;
- font-weight: bolder;
-}
-.formulaire{
-    margin-right: 56px;
-}
-
-h2{
-    color: rgb(206, 0, 51);
-    font-size: 30px;
-}
-.alumni{
-    display: flex;
-    justify-content: space-around;
-}
-.histoire{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.alumni1{
-    font-size: 30px;
-    background-color: rgb(253, 247, 247);
-    padding-top: 150px;
-    margin-bottom: 170px;
-
-}
-#photo_alumni{
+.equipe_pedagogique .image .deco1{
+    color: #ffff;
+    font-size: 12px;
     display: inline-block;
-    width: 800px;
-    margin-right: 40px;
-    position: relative;
-
+    align-items: center;
+    width: 10%;
+    padding: 1%;
+    border-radius:   0 35% 35% 0 ;
+    margin-top: 2%;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
 }
-.p_alumni{
-    font-weight: bold;
-    border: 0.3px grey solid;
-    font-size: 30px;
-    padding-left: 70px;
-    border-radius: 10px;
-    width: 720px;
+#histoire_communauté{
+    margin-top: 8%;
 }
 
-.histoire1{
-    border: 3px rgb(220, 215, 215) solid;
+#histoire_communauté .titre{
+   
+    margin-bottom: 5%;
+}
+
+#histoire_communauté h1{
+    color: rgb(206, 0, 51);
+    margin-left: 4%;
+    font-size: 24px;
+}
+
+#histoire_communauté .histoire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+#histoire_communauté .histoire1{
+    background-color: #fff;
+    box-shadow: 0 5px 5px -5px ;
+    width: 30%; 
+    margin-bottom: 20px;
+   
+    
 }
 .p_histoire{
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 1.5;
     padding: 20px;
+    max-width: 80%;
     
 }
 .img19 img{
     height: auto;
-    border-radius: 70px;
-    width: 120px;
+    border-radius:50%;
+    width: 80px;
 }
 .p_histoire1{
     display: flex;
     justify-content: space-evenly;
 }
-footer{
+
+/*contact*/
+#contact {
+    margin-top: 8%;
+    margin-left: 3%;
+}
+#contact .formulaire{
     display: flex;
-    justify-content:space-evenly;
-    background-image: url("images/Design sans titre (1).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:4%;
+   margin-top: 5%;
+  
 }
-footer h2{
-    color: white;
+
+#contact h1{
+    text-align: center;
+    color: #ce0033;
+    margin-bottom: 3%;
 }
-footer p{
-    color:rgb(182, 180, 180)
+#contact .nou input{
+    padding: 3%;
+    width: 270px;
+    margin-left: 50px;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px -5px ;
 }
-#btn-joindre{
+
+#contact .nmc{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+#contact .mes{
+
+    margin-top:50px ;
+    padding:30px ;
+
+}
+#contact .mes textarea{
+    width: 100%;
+    height: 120px;
+    padding: 3%;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px -5px ;
+}
+#contact .nou{
+    margin-bottom: 30px;
+    margin-top:30px ;
+    display: flex;
+}
+#contact b{
+   color: #ce0033;
+   font-weight: bold;
+   margin-left: 2px;
+}
+#contact .envoyer{
+    border-radius:25px;
+    background:#ce0033 ;
+    color:white ;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 200px;
+    height: 45px;
+    margin: 10px auto; /* Centre le bouton horizontalement */
+}
+#contact .adresse{
+    display: flex;
+    
+}
+#contact .adresse img{
+    margin-right: 40px;
+    margin-top: 25px;
+}
+#contact .truc{
+    display: block;
+}
+#contact label{
+    display: flex;
+    align-items: center;
+    
+}
+
+#contact  .checkbox input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+
+/*footer*/
+
+#footer{
+    background-image: url('18.png');
+        /* Autres propriétés facultatives */
+    background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
+    background-position: center; /* Positionne l'image au centre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 4% 10% 11% 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    
+}
+#footer .container{
+    display: flex;
+    
+    
+}
+#footer #logo{
+    display: inline-block;
+    max-width: 25%;
+    
+   
+}
+#footer .logo p{
+    font-size: 60%;
+   margin-top: -7%;
+    color: #ffff;
+  
+}
+#footer .img14{
+    width: 50%;
+    margin: 5%;
+}
+#footer .icon{
+  
+    margin-top: 20%;
+    
+}
+#footer iconify-icon{
+    margin-left: 5%;
+}
+
+#footer iconify-icon:not(.first-icon) {
+    margin-left: 5%; /* Ajoute de l'espace à gauche des icônes sauf pour la première */
+}
+#footer .infos{
+    display: inline-block;
+    max-width: 25%;
+    margin-top: -2%;
+}
+#footer .infos h1,.coordonne h1,.newsletter h1{
+    color: #ffff;
+}
+
+
+#footer li a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+    display: inline-block; 
+    justify-content: space-between;
+}
+#footer .infos ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0; /* Réinitialise les marges intérieures du ul */
+}
+
+#footer .infos li {
+    margin-bottom: 5%; 
+    color: rgb(201, 187, 187);
+    text-decoration: none;
+    list-style: none;
+   
+}
+#footer .coordonne{
+    display: inline-block;
+    max-width: 25%;
+    margin-top: -0.5%;
+    margin-left: 6%;
+    color: rgb(201, 187, 187);
+}
+#footer .coordonne ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0; /* Réinitialise les marges intérieures du ul */
+}
+
+#footer .adresse{
+    margin-top: 10%;
+}
+#footer .email{
+    margin-top: 15%;
+}
+#footer .email a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+}
+#footer .email li{
+    list-style: none;
+}
+#footer .newsletter{
+    display: inline-block;
+    max-width: 25%;
+    margin-left: 8%;
+    color: rgb(201, 187, 187);
+}
+#footer .input{
+    max-width: 100%;
+    display: flex;
+    margin-top: 20%;
+
+}
+#footer input{
+    
+    height: 100%;
+    padding: 4.3%;
+    border-radius: 8%;
+}
+#footer .joindre{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 1%;
+    margin-left: 15%;
+    margin-top: -0.1%;
+    position:absolute;
+    background: #ce0033;
+}
+#baspage{
     background-color: #ce0033;
-    color: white;
-    border: none;
-    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    padding: 3%;
+
 }
-aside{
-    color:white;
-    background-color: #ce0033;
+.copy1 {
+    display: flex;
+    justify-content: space-between; /* Écarte les éléments le plus possible */
+}
+
+.copy {
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+/* Pour aligner le texte à droite */
+.made {
+    margin: 0;
+    margin-left: auto; /* Pousse l'élément à droite de la ligne */
+}
+/*resposivité*/
+@media screen and (max-width: 968px) {
+    /* Modifiez ici les styles pour s'adapter aux écrans plus petits */
+    
+    .menu-toggler {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+        display: block; /* Cache le toggler par défaut */
+    }
+    /* Logo en haut à gauche */
+    .img1 {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+   }
+   #header .logo_acceuil {
+    width: 100px;
+    height: auto;
+   }
+    #header header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* Aligne verticalement les éléments du header */
+        width: 100%; /* Assure que le header prend toute la largeur */
+        margin-bottom: 8%;
+    }
+    #header .nav-links {
+        display: none; /* Cache les liens par défaut pour les écrans plus petits */
+    }
+    
+   /* Ajoutez des styles pour les liens */
+   .links-visible .nav-links {
+    display: flex !important; /* Affiche les liens lorsque la classe 'links-visible' est présente */
+    flex-direction: column; /* Affiche les liens en colonne */
+    gap: 10px; /* Espace entre les éléments */
+    align-items: center; /* Centre les éléments horizontalement */
+   }
+
+    #header li {
+        margin: 10px 0; /* Augmente l'espacement entre les éléments */
+    }
+    #header li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    #header .nav-links {
+        flex-direction: column; /* Affiche les liens en colonne */
+        gap: 10px; /* Espace entre les éléments réduit */
+    }
+    /*section reseau*/
+    .section1 {
+        padding: 10%; /* Réduire le padding pour les appareils plus petits */
+        background-position: center; /* Centrer l'image de fond */
+    }
+
+    .section1 .p1 {
+        font-size: 32px; /* Ajuster la taille du texte */
+    }
+
+    .section1 .p2 {
+        font-size: 16px; /* Ajuster la taille du texte */
+    }
+
+    .btn2 {
+        width: 150px; /* Ajuster la largeur du bouton */
+        padding: 12px; /* Ajuster le rembourrage */
+    }
+    /*section simplon*/
+    /* Ajustements pour centrer le contenu de la section */
+.simplon {
+    padding: 15px; /* Ajuster le padding pour les appareils plus petits */
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    flex-direction: column; /* Affiche les éléments en colonne */
+}
+
+.simplon img {
+    width: 100%; /* Remplir la largeur du conteneur */
+    max-width: none; /* Ajuster la largeur maximale de l'image */
+    height: auto; /* Ajuster la hauteur automatiquement */
+}
+
+.simplon_au_senegal {
+    margin: 0; /* Ajuster la marge en haut et en bas */
+    text-align: center; /* Centrer le texte horizontalement */
+    max-width: 90%; /* Ajuster la largeur maximale du texte */
+    overflow: auto;
+}
+
+.simplon_au_senegal p {
+    font-size: 80%;
+    line-height: 1.8;
+   
+}
+/*section nouvelles*/
+#nouvelles .card1 {
+    flex: 1 1 45%; /* Ajuster la largeur des cartes pour les écrans plus petits */
+}
+
+#nouvelles #icon {
+    text-align: left; /* Aligner à gauche sur les écrans plus petits */
+    margin-top: 10px; /* Réduire l'espace en haut */
+}
+/*section event*/
+#event .event1 {
+    max-width: 90%; /* Ajuster la largeur des événements pour les écrans plus petits */
+}
+/*section découverte*/
+.evolution h2 {
+    font-size: 30px; /* Taille du titre pour les écrans plus petits */
+}
+
+.evolution p {
+    font-size: 16px; /* Taille du paragraphe pour les écrans plus petits */
+}
+
+.triple_caisse .mini_caisse {
+    flex: 1 1 80%; /* Largeur des éléments pour les écrans plus petits */
+}
+
+.triple_caisse h3 {
+    font-size: 30px; /* Taille du nombre pour les écrans plus petits */
+}
+/*formateur*/
+ /* Ajouter des styles spécifiques pour les écrans plus grands si nécessaire */
+ .formateurs {
+    flex-direction: column; /* Passer à une disposition en colonne pour les petits écrans */
+    align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.box_samba {
+    width: 80%; /* Ajuster la largeur pour éviter le débordement */
+    margin-bottom: 50px; /* Ajouter de l'espace entre les boîtes */
+}
+/*apprenant */
+.apprenant {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
+}
+.apprenants{
+   flex-direction: column;
+}
+
+
+.apprenant .student,
+.apprenant .image {
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+
+.apprenant .text1,
+.apprenant .image .deco1{
+    font-size: 12px; /* Ajuster la taille de la police pour les écrans plus petits */
+}
+.apprenant .image .deco1{
+   
+    width: 14%;
+   
+}
+/* Styles supplémentaires pour ajuster la disposition */
+.apprenant .text1 {
+    margin-left: 0; /* Réinitialiser la marge pour les écrans plus petits */
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+.apprenant .img12{
+    width: 10%;
+    height: auto;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -50%;
+    
+   
+}
+.apprenant #heure span{
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 8%;
     padding: 1.5%;
-    font-size:1em;
+    margin-left: 30%;
+    margin-top: -13%;
+    position:absolute;
+  
+}
+#histoire {
+    margin-top: 5%; /* Ajuster la marge supérieure pour les écrans plus petits */
+    margin-left: 2%; /* Ajuster la marge gauche pour les écrans plus petits */
+}
+.history{
+   flex-direction: column;
+}
+
+
+#histoire .student,
+#histoire .image {
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+
+#histoire .text1,
+#histoire .image #deco2{
+    font-size: 12px; /* Ajuster la taille de la police pour les écrans plus petits */
+}
+#histoire .image #deco2{
+   
+    width: 30%;
+   
+}
+/* Styles supplémentaires pour ajuster la disposition */
+#histoire .text1 {
+    margin-left: 0; /* Réinitialiser la marge pour les écrans plus petits */
+    max-width: 100%; /* Utiliser la pleine largeur pour les écrans plus petits */
+}
+
+#histoire .img12c{
+    width: 10%;
+    height: auto;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -50%;
+    
+   
+}
+#histoire #heure1 span{
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 8%;
+    padding: 1.5%;
+    margin-left: 30%;
+    margin-top: -13%;
+    position:absolute;
+  
+}
+/* Styles pour centrer le contenu au milieu de la page */
+#histoire .communaute {
+    max-width: 77%;
+    display: flex;
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+    /* Centrer verticalement */
+    /* Centrer le texte horizontalement */
+     /* Ajuster la marge supérieure */
+    margin-left: 6%; /* Ajuster la marge gauche */
+}
+
+.communaute .text2 {
+   line-height: 2;
+}
+
+
+.equipe_pedagogique .image .deco1{
+    font-size: 8px;
+}
+/*petite histoire */
+#histoire_communauté .histoire1 {
+    width: 80%; /* Ajuster la largeur des éléments pour les écrans plus petits */
+}
+
+#histoire_communauté h1 {
+    font-size: 20px; /* Ajuster la taille du titre pour les écrans plus petits */
+}
+
+.img19 img {
+    width: 50px; /* Ajuster la taille de l'image pour les écrans plus petits */
+}
+
+.p_histoire {
+    font-size: 12px; /* Ajuster la taille du texte pour les écrans plus petits */
+    padding: 5px; /* Ajuster le padding pour les écrans plus petits */
+}
+
+#contact .formulaire {
+    flex-direction: column;
+}
+#contact .nou input {
+    width: 100%;
+    margin: 2%;
+}
+#contact .mes textarea{
+    width: 90%;
+    height: 100px;
+    padding: 3%;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px -5px ;
+}
+#contact .last {
+    text-align: center;
+}
+
+#contact .nmc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+#contact .adresse {
+    display: flex;
+    margin: 10px;
+}
+
+
+
+/* Footer section */
+#footer {
+    display: flex;
+    flex-wrap: wrap; /* Si l'espace est insuffisant, passez à la ligne suivante */
+    justify-content: space-between;
+    }
+    #footer .container{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    }
+    #footer #logo {
+        max-width: 30%;
+        margin-bottom: 5%;
+        }
+        
+        #footer .logo p {
+        font-size: 12px;
+        }
+        
+        #footer .icon {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+        
+        
+        #footer .infos ul {
+        padding-inline-start: 0;
+        }
+        
+        #footer .joindre {
+        font-size: 12px;
+        width: 6%;
+        padding: 1.3%;
+        border-radius: 8%;
+        margin-left: 20%;
+        margin-top: 0.1%;
+        position:absolute;
+        }
+
+/* Bas de page */
+#baspage {
+    background-color: #ce0033;
+    color: #ffff;
+    font-weight: bold;
+    padding: 3%;
+    text-align: center; /* Centrage du texte */
+}
+
+.copy1 {
+   
+    flex-wrap: wrap; /* Si l'espace est insuffisant, passez à la ligne suivante */
+}
+}
+
+
+/* Pour les appareils plus petits (mobiles) */
+@media screen and (max-width: 768px) {
+    #contact h1 {
+        font-size: 24px;
+    }
+    #contact .nou input, #contact .mes textarea {
+        padding: 2%;
+        font-size: 14px;
+    }
+    #contact .envoyer {
+        font-size: 16px;
+        width: 160px;
+        height: 40px;
+    }
+    #contact .adresse img {
+        margin-right: 20px;
+        margin-top: 15px;
+    }
 }
